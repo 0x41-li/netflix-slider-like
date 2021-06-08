@@ -293,6 +293,7 @@ function setupInitialSize() {
     const ul = allUlTags[x];
     ul.style.flex =
       "0 0 calc((100vw - " + (60 + scrollBarWidth + 60 + 20) + "px) / 6)";
+    ul.style.height = "calc((100vw - " + (60 + scrollBarWidth + 60 + 20) + "px) / 6)";
   }
   for (let y = 0; y < arrowRight.length; y++) {
     const arrow = arrowRight[y];
@@ -305,32 +306,47 @@ function setupInitialSize() {
   }
 }
 
-// function hoverBox() {
-//   let id = undefined;
-//   let parentSliderHoverEvent = undefined;
-//   let divHoverBoxHow = undefined;
+function hoverBox() {
+  let id = undefined;
+  let parentSliderHoverEvent = undefined;
+  let divHoverBoxHow = undefined;
 
-//   for (let x = 0; x < allUlTags.length; x++) {
-//     const ul = allUlTags[x];
+  for (let x = 0; x < allUlTags.length; x++) {
+    const ul = allUlTags[x];
 
-//     ul.addEventListener("mouseover", (e) => {
-//       parentSliderHoverEvent = ul.parentElement.parentElement;
-//       id = setTimeout(() => {
-//         divHoverBoxHow = createElement("div", "."+parentSliderHoverEvent.classList[1],"", {
-//           class: "hover-box-showed"
-//         });
+    ul.addEventListener("mouseover", (e) => {
+      parentSliderHoverEvent = ul.parentElement.parentElement;
+      id = setTimeout(() => {
+        divHoverBoxHow = createElement(
+          "div",
+          "." + parentSliderHoverEvent.classList[1],
+          "",
+          {
+            class: "hover-box-showed",
+          }
+        );
 
-//         divHoverBoxHow.style.left = ul.offsetLeft + "px";
-//         divHoverBoxHow.style.width = ul.clientWidth + "px";
 
-//         divHoverBoxHow.addEventListener("mouseleave", () => {
-//           clearTimeout(id);
-//           divHoverBoxHow.remove();
-//         });
-        
+        divHoverBoxHow.setAttribute(
+          "style",
+          "--hover-box-width: " +
+            ul.clientWidth +
+            "px; left: " +
+            (ul.offsetLeft + 8) +
+            "px;"
+        );
 
-//       }, 1000);
-//     });
+        divHoverBoxHow.addEventListener("mouseleave", () => {
+          clearTimeout(id);
+          divHoverBoxHow.remove();
+        });
 
-//   }
-// }
+      }, 400);
+
+      ul.addEventListener("mouseleave", () => {
+        clearTimeout(id);
+      });
+      
+    });
+  }
+}

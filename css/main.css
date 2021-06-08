@@ -189,8 +189,24 @@ input {
   position: absolute;
   top:0;
   background-color: #111111;
-  height: 100%;
-  width: 100px;
+  height: calc(100% * 2);
+  width: calc(var(--hover-box-width) * 1.6);
+  animation: hoverBox 0.4s;
+  transform: translate(-25%, -25%);
+}
+
+
+@keyframes hoverBox {
+  from {
+    transform: translate(0%, 0%);
+    height: 100%;
+    width: var(--hover-box-width);
+  }
+  to {
+    transform: translate(-25%, -25%);
+    height: calc(100% * 2);
+    width: calc(var(--hover-box-width) * 1.6);
+  }
 }
 
 
