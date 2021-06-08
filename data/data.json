@@ -1,0 +1,5091 @@
+{
+  "data": [
+    {
+      "genreId": 1,
+      "genre": "Pop",
+      "subGenre": "Adult Contemporary",
+      "release": [
+        {
+          "releaseId": 11,
+          "mainKey": "Dark",
+          "subKey": "Smooth",
+          "altKey": "Intense",
+          "plays": 1000,
+          "explicit": false,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/11/5a/83/115a8389-7fa7-47af-0824-583c09a5c19c/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 12,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 200,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/36/e1/59/36e15965-3282-e2e3-b865-b34745d5c2c3/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 13,
+          "mainKey": "Love",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2000,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music123/v4/63/96/ef/6396ef3c-b058-e999-96a9-e4ee7f03ddb2/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 14,
+          "mainKey": "Anger",
+          "subKey": "Deep",
+          "altKey": "Depressing",
+          "plays": 2001,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/2b/24/91/2b249168-3f09-13cd-204f-ee0f7f5c86f6/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 15,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 200,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/96/c7/24/96c72477-e392-f55d-2fef-32840bf3b06e/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 16,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2003,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/25/77/a6/2577a651-4316-1c1f-1366-e0ea24586f3e/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 17,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20033,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/d8/d1/51/d8d1519b-b364-09b7-aa85-fc4547a4bf9d/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 18,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2003,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/d2/49/19/d24919c5-7423-a324-eae6-009f7151453e/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 19,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20011,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/d1/ff/98/d1ff98a6-5528-cd7b-7f98-6456f1405128/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 20,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20023,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/ca/7a/48/ca7a4879-1b21-9951-943f-f18a2842a627/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 21,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2006,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/2b/bf/f5/2bbff57f-cf84-f8e3-f8d9-0cccc359de00/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 22,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20065,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/e2/4c/d1/e24cd1f1-b176-b515-2230-c736199fb09d/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 23,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music18/v4/06/31/9a/06319a9c-ac98-597e-af0e-ea23f0ae71a2/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 24,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 209,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/a3/9f/cc/a39fcca2-3d29-96df-5d57-966d5d84085e/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 25,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20440,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music118/v4/88/c3/5b/88c35b3b-3e9c-54b2-cd7a-042c717f95ec/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 26,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2400,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/6c/15/9a/6c159a6b-d320-1d86-ec72-6567ad6b82c0/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 27,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2300,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/c7/49/8f/c7498f71-d27c-94f8-7e13-aae5eefe3d2e/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 28,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2030,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/fa/3f/6e/fa3f6e03-51bd-ecc4-815e-586fc6e851a5/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 29,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 23300,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/cf/63/94/cf6394ca-1b3a-7a6b-e57b-a3d70aee6bd6/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 30,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 22200,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/da/6f/93/da6f93b8-4420-6c22-cf85-f1e7cef449e1/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 31,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2006,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/8f/c2/07/8fc20741-dfd9-fd8d-8842-9b2278f71afd/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 32,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20065,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/52/0f/0c/520f0ccd-1ddd-0c78-e9fc-c60f30499d09/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 33,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20054,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/8b/c2/be/8bc2be1d-d855-1fd3-2fb4-6c978cdc3a4c/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 34,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20011,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/a0/2a/f4/a02af436-35d2-3992-8dcc-0f985f59a12b/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 35,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 200231,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music123/v4/59/52/b3/5952b390-0f9b-d6f2-172d-3c9bded50523/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 36,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 200123,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/39/39/9c/39399c3a-c3bc-27c1-95ec-6b9a6bf3d1d7/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 37,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 200421,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music128/v4/a9/a9/24/a9a924c1-fdef-bcd8-a4ae-6fa02324922f/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 38,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2001123,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/b7/73/13/b773137e-d201-6cbb-a6b9-7bd2145b47cb/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 39,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 200112,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/18/15/51/18155148-2d9d-c7bd-8d33-e50900b11527/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 40,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 200345,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/57/89/30/5789304c-b48b-e77f-3629-3d6e7611fea3/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 41,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20042,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/ab/90/20/ab90202f-936c-3590-806b-fd745ad8a1fc/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 42,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 200267,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/a8/aa/64/a8aa64c6-7e5a-31b7-515c-bbab23ec0f4b/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 43,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20063,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music128/v4/9a/46/57/9a465740-27bc-f8a9-ccbb-34a2e49bdc2c/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 44,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2100,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/e4/31/4a/e4314a5a-70d1-22a6-8b58-dfaa14672bee/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 45,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2030,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music128/v4/96/27/37/96273729-2531-a6dc-84db-bd47bd665f8e/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 46,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 233300,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music/v4/2e/2a/64/2e2a64e1-57e4-85c2-5b0e-d70fdf726340/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 47,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 21100,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/6d/15/b7/6d15b719-60b5-bbcb-7ae4-6229ba1819c9/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 48,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 22003,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music128/v4/d3/5f/55/d35f55d3-264a-7c77-0ff5-a498f225622b/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 49,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20304,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music122/v4/82/d2/18/82d218b9-51e4-ff5c-1d08-342d82e66430/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 50,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20056,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music125/v4/18/0a/cc/180acc93-432e-821b-6b1f-0a9de611adf0/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 51,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20900,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music117/v4/61/bc/01/61bc01a3-1d2b-c043-eb94-a1b76429c778/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 52,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20090,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/36/e1/59/36e15965-3282-e2e3-b865-b34745d5c2c3/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 53,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20099,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/d9/a8/b6/d9a8b6b4-08bb-7a4f-26dc-1761d9bcdec1/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 54,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20809,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/15/04/c2/1504c212-9e32-367d-5755-834baf03583d/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 55,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 213080,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/29/55/05/29550595-ee55-5de9-24c6-01358267fc42/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 56,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 201110,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music118/v4/53/04/cb/5304cbb3-f8c7-f6ad-36b4-7516f8d09fa6/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 57,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 21010,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music118/v4/f7/dc/fd/f7dcfd11-e26b-f7cf-5e86-411dc899c6cc/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 58,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 201101,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music/v4/a3/18/40/a31840c7-2a5e-20ee-61e7-1d3e5e90b17d/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 59,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 201101,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music/v4/03/0c/bd/030cbd39-969d-7632-72bf-55b8c5949e00/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 60,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2001246,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music113/v4/4b/5a/68/4b5a68b5-722a-72ab-cc72-a905ab02bba0/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 61,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2009863,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/68/31/30/68313091-c97f-c794-b95a-bf9d59ceee5c/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 62,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2203011,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/39/0e/30/390e302d-8759-39de-0810-923ec92d5de1/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 63,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2011011,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music118/v4/e8/d1/98/e8d1987e-9b4e-41ef-3130-36538a6740de/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 64,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 220202,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/ea/0e/4c/ea0e4cef-f481-18be-2b20-2debb3664102/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 65,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2012033,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/9b/e6/9f/9be69fc5-8f2b-86cf-7d37-f253c0c4a640/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 66,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 220230,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music118/v4/2e/12/a3/2e12a3bd-d721-3ebe-993a-54404b4afd60/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 67,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2301103,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/2a/90/c2/2a90c2b6-3642-6c5e-0504-33bf24e5e292/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 68,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2203501,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/9b/ef/35/9bef354f-561e-fba1-e01d-24577da0491e/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 69,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2100123,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/e9/4a/37/e94a3774-717e-5424-bd0d-6e553be37f45/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 70,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20340980,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/c2/3f/a4/c23fa403-72fa-09c6-f3af-58485addab19/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 71,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 200,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/6a/a9/6b/6aa96b0f-c192-d9c2-83b3-4020a4332b33/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 72,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 23033033,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/b4/84/47/b4844780-b6c0-4e59-47d5-fe61347bfa25/source/100000x100000-999.jpg"
+        }
+      ]
+    },
+    {
+      "genreId": 1,
+      "genre": "Pop",
+      "subGenre": "Adult Contemporary",
+      "release": [
+        {
+          "releaseId": 11,
+          "mainKey": "Dark",
+          "subKey": "Smooth",
+          "altKey": "Intense",
+          "plays": 1000,
+          "explicit": false,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/11/5a/83/115a8389-7fa7-47af-0824-583c09a5c19c/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 12,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 200,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/36/e1/59/36e15965-3282-e2e3-b865-b34745d5c2c3/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 13,
+          "mainKey": "Love",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2000,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music123/v4/63/96/ef/6396ef3c-b058-e999-96a9-e4ee7f03ddb2/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 14,
+          "mainKey": "Anger",
+          "subKey": "Deep",
+          "altKey": "Depressing",
+          "plays": 2001,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/2b/24/91/2b249168-3f09-13cd-204f-ee0f7f5c86f6/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 15,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 200,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/96/c7/24/96c72477-e392-f55d-2fef-32840bf3b06e/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 16,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2003,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/25/77/a6/2577a651-4316-1c1f-1366-e0ea24586f3e/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 17,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20033,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/d8/d1/51/d8d1519b-b364-09b7-aa85-fc4547a4bf9d/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 18,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2003,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/d2/49/19/d24919c5-7423-a324-eae6-009f7151453e/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 19,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20011,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/d1/ff/98/d1ff98a6-5528-cd7b-7f98-6456f1405128/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 20,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20023,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/ca/7a/48/ca7a4879-1b21-9951-943f-f18a2842a627/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 21,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2006,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/2b/bf/f5/2bbff57f-cf84-f8e3-f8d9-0cccc359de00/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 22,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20065,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/e2/4c/d1/e24cd1f1-b176-b515-2230-c736199fb09d/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 23,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music18/v4/06/31/9a/06319a9c-ac98-597e-af0e-ea23f0ae71a2/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 24,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 209,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/a3/9f/cc/a39fcca2-3d29-96df-5d57-966d5d84085e/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 25,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20440,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music118/v4/88/c3/5b/88c35b3b-3e9c-54b2-cd7a-042c717f95ec/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 26,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2400,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/6c/15/9a/6c159a6b-d320-1d86-ec72-6567ad6b82c0/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 27,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2300,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/c7/49/8f/c7498f71-d27c-94f8-7e13-aae5eefe3d2e/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 28,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2030,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/fa/3f/6e/fa3f6e03-51bd-ecc4-815e-586fc6e851a5/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 29,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 23300,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/cf/63/94/cf6394ca-1b3a-7a6b-e57b-a3d70aee6bd6/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 30,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 22200,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/da/6f/93/da6f93b8-4420-6c22-cf85-f1e7cef449e1/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 31,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2006,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/8f/c2/07/8fc20741-dfd9-fd8d-8842-9b2278f71afd/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 32,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20065,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/52/0f/0c/520f0ccd-1ddd-0c78-e9fc-c60f30499d09/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 33,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20054,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/8b/c2/be/8bc2be1d-d855-1fd3-2fb4-6c978cdc3a4c/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 34,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20011,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/a0/2a/f4/a02af436-35d2-3992-8dcc-0f985f59a12b/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 35,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 200231,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music123/v4/59/52/b3/5952b390-0f9b-d6f2-172d-3c9bded50523/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 36,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 200123,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/39/39/9c/39399c3a-c3bc-27c1-95ec-6b9a6bf3d1d7/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 37,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 200421,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music128/v4/a9/a9/24/a9a924c1-fdef-bcd8-a4ae-6fa02324922f/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 38,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2001123,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/b7/73/13/b773137e-d201-6cbb-a6b9-7bd2145b47cb/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 39,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 200112,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/18/15/51/18155148-2d9d-c7bd-8d33-e50900b11527/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 40,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 200345,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/57/89/30/5789304c-b48b-e77f-3629-3d6e7611fea3/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 41,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20042,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/ab/90/20/ab90202f-936c-3590-806b-fd745ad8a1fc/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 42,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 200267,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/a8/aa/64/a8aa64c6-7e5a-31b7-515c-bbab23ec0f4b/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 43,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20063,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music128/v4/9a/46/57/9a465740-27bc-f8a9-ccbb-34a2e49bdc2c/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 44,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2100,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/e4/31/4a/e4314a5a-70d1-22a6-8b58-dfaa14672bee/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 45,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2030,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music128/v4/96/27/37/96273729-2531-a6dc-84db-bd47bd665f8e/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 46,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 233300,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music/v4/2e/2a/64/2e2a64e1-57e4-85c2-5b0e-d70fdf726340/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 47,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 21100,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/6d/15/b7/6d15b719-60b5-bbcb-7ae4-6229ba1819c9/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 48,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 22003,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music128/v4/d3/5f/55/d35f55d3-264a-7c77-0ff5-a498f225622b/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 49,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20304,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music122/v4/82/d2/18/82d218b9-51e4-ff5c-1d08-342d82e66430/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 50,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20056,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music125/v4/18/0a/cc/180acc93-432e-821b-6b1f-0a9de611adf0/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 51,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20900,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music117/v4/61/bc/01/61bc01a3-1d2b-c043-eb94-a1b76429c778/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 52,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20090,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/36/e1/59/36e15965-3282-e2e3-b865-b34745d5c2c3/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 53,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20099,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/d9/a8/b6/d9a8b6b4-08bb-7a4f-26dc-1761d9bcdec1/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 54,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20809,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/15/04/c2/1504c212-9e32-367d-5755-834baf03583d/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 55,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 213080,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/29/55/05/29550595-ee55-5de9-24c6-01358267fc42/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 56,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 201110,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music118/v4/53/04/cb/5304cbb3-f8c7-f6ad-36b4-7516f8d09fa6/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 57,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 21010,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music118/v4/f7/dc/fd/f7dcfd11-e26b-f7cf-5e86-411dc899c6cc/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 58,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 201101,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music/v4/a3/18/40/a31840c7-2a5e-20ee-61e7-1d3e5e90b17d/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 59,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 201101,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music/v4/03/0c/bd/030cbd39-969d-7632-72bf-55b8c5949e00/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 60,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2001246,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music113/v4/4b/5a/68/4b5a68b5-722a-72ab-cc72-a905ab02bba0/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 61,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2009863,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/68/31/30/68313091-c97f-c794-b95a-bf9d59ceee5c/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 62,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2203011,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/39/0e/30/390e302d-8759-39de-0810-923ec92d5de1/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 63,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2011011,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music118/v4/e8/d1/98/e8d1987e-9b4e-41ef-3130-36538a6740de/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 64,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 220202,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/ea/0e/4c/ea0e4cef-f481-18be-2b20-2debb3664102/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 65,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2012033,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/9b/e6/9f/9be69fc5-8f2b-86cf-7d37-f253c0c4a640/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 66,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 220230,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music118/v4/2e/12/a3/2e12a3bd-d721-3ebe-993a-54404b4afd60/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 67,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2301103,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/2a/90/c2/2a90c2b6-3642-6c5e-0504-33bf24e5e292/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 68,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2203501,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/9b/ef/35/9bef354f-561e-fba1-e01d-24577da0491e/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 69,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2100123,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/e9/4a/37/e94a3774-717e-5424-bd0d-6e553be37f45/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 70,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20340980,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/c2/3f/a4/c23fa403-72fa-09c6-f3af-58485addab19/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 71,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 200,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/6a/a9/6b/6aa96b0f-c192-d9c2-83b3-4020a4332b33/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 72,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 23033033,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/b4/84/47/b4844780-b6c0-4e59-47d5-fe61347bfa25/source/100000x100000-999.jpg"
+        }
+      ]
+    },
+    {
+      "genreId": 1,
+      "genre": "Pop",
+      "subGenre": "Adult Contemporary",
+      "release": [
+        {
+          "releaseId": 11,
+          "mainKey": "Dark",
+          "subKey": "Smooth",
+          "altKey": "Intense",
+          "plays": 1000,
+          "explicit": false,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/11/5a/83/115a8389-7fa7-47af-0824-583c09a5c19c/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 12,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 200,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/36/e1/59/36e15965-3282-e2e3-b865-b34745d5c2c3/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 13,
+          "mainKey": "Love",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2000,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music123/v4/63/96/ef/6396ef3c-b058-e999-96a9-e4ee7f03ddb2/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 14,
+          "mainKey": "Anger",
+          "subKey": "Deep",
+          "altKey": "Depressing",
+          "plays": 2001,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/2b/24/91/2b249168-3f09-13cd-204f-ee0f7f5c86f6/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 15,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 200,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/96/c7/24/96c72477-e392-f55d-2fef-32840bf3b06e/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 16,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2003,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/25/77/a6/2577a651-4316-1c1f-1366-e0ea24586f3e/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 17,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20033,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/d8/d1/51/d8d1519b-b364-09b7-aa85-fc4547a4bf9d/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 18,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2003,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/d2/49/19/d24919c5-7423-a324-eae6-009f7151453e/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 19,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20011,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/d1/ff/98/d1ff98a6-5528-cd7b-7f98-6456f1405128/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 20,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20023,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/ca/7a/48/ca7a4879-1b21-9951-943f-f18a2842a627/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 21,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2006,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/2b/bf/f5/2bbff57f-cf84-f8e3-f8d9-0cccc359de00/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 22,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20065,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/e2/4c/d1/e24cd1f1-b176-b515-2230-c736199fb09d/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 23,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music18/v4/06/31/9a/06319a9c-ac98-597e-af0e-ea23f0ae71a2/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 24,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 209,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/a3/9f/cc/a39fcca2-3d29-96df-5d57-966d5d84085e/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 25,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20440,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music118/v4/88/c3/5b/88c35b3b-3e9c-54b2-cd7a-042c717f95ec/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 26,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2400,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/6c/15/9a/6c159a6b-d320-1d86-ec72-6567ad6b82c0/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 27,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2300,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/c7/49/8f/c7498f71-d27c-94f8-7e13-aae5eefe3d2e/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 28,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2030,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/fa/3f/6e/fa3f6e03-51bd-ecc4-815e-586fc6e851a5/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 29,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 23300,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/cf/63/94/cf6394ca-1b3a-7a6b-e57b-a3d70aee6bd6/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 30,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 22200,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/da/6f/93/da6f93b8-4420-6c22-cf85-f1e7cef449e1/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 31,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2006,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/8f/c2/07/8fc20741-dfd9-fd8d-8842-9b2278f71afd/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 32,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20065,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/52/0f/0c/520f0ccd-1ddd-0c78-e9fc-c60f30499d09/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 33,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20054,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/8b/c2/be/8bc2be1d-d855-1fd3-2fb4-6c978cdc3a4c/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 34,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20011,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/a0/2a/f4/a02af436-35d2-3992-8dcc-0f985f59a12b/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 35,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 200231,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music123/v4/59/52/b3/5952b390-0f9b-d6f2-172d-3c9bded50523/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 36,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 200123,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/39/39/9c/39399c3a-c3bc-27c1-95ec-6b9a6bf3d1d7/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 37,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 200421,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music128/v4/a9/a9/24/a9a924c1-fdef-bcd8-a4ae-6fa02324922f/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 38,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2001123,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/b7/73/13/b773137e-d201-6cbb-a6b9-7bd2145b47cb/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 39,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 200112,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/18/15/51/18155148-2d9d-c7bd-8d33-e50900b11527/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 40,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 200345,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/57/89/30/5789304c-b48b-e77f-3629-3d6e7611fea3/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 41,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20042,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/ab/90/20/ab90202f-936c-3590-806b-fd745ad8a1fc/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 42,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 200267,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/a8/aa/64/a8aa64c6-7e5a-31b7-515c-bbab23ec0f4b/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 43,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20063,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music128/v4/9a/46/57/9a465740-27bc-f8a9-ccbb-34a2e49bdc2c/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 44,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2100,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/e4/31/4a/e4314a5a-70d1-22a6-8b58-dfaa14672bee/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 45,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2030,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music128/v4/96/27/37/96273729-2531-a6dc-84db-bd47bd665f8e/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 46,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 233300,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music/v4/2e/2a/64/2e2a64e1-57e4-85c2-5b0e-d70fdf726340/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 47,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 21100,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/6d/15/b7/6d15b719-60b5-bbcb-7ae4-6229ba1819c9/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 48,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 22003,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music128/v4/d3/5f/55/d35f55d3-264a-7c77-0ff5-a498f225622b/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 49,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20304,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music122/v4/82/d2/18/82d218b9-51e4-ff5c-1d08-342d82e66430/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 50,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20056,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music125/v4/18/0a/cc/180acc93-432e-821b-6b1f-0a9de611adf0/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 51,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20900,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music117/v4/61/bc/01/61bc01a3-1d2b-c043-eb94-a1b76429c778/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 52,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20090,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/36/e1/59/36e15965-3282-e2e3-b865-b34745d5c2c3/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 53,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20099,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/d9/a8/b6/d9a8b6b4-08bb-7a4f-26dc-1761d9bcdec1/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 54,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20809,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/15/04/c2/1504c212-9e32-367d-5755-834baf03583d/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 55,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 213080,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/29/55/05/29550595-ee55-5de9-24c6-01358267fc42/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 56,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 201110,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music118/v4/53/04/cb/5304cbb3-f8c7-f6ad-36b4-7516f8d09fa6/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 57,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 21010,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music118/v4/f7/dc/fd/f7dcfd11-e26b-f7cf-5e86-411dc899c6cc/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 58,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 201101,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music/v4/a3/18/40/a31840c7-2a5e-20ee-61e7-1d3e5e90b17d/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 59,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 201101,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music/v4/03/0c/bd/030cbd39-969d-7632-72bf-55b8c5949e00/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 60,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2001246,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music113/v4/4b/5a/68/4b5a68b5-722a-72ab-cc72-a905ab02bba0/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 61,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2009863,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/68/31/30/68313091-c97f-c794-b95a-bf9d59ceee5c/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 62,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2203011,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/39/0e/30/390e302d-8759-39de-0810-923ec92d5de1/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 63,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2011011,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music118/v4/e8/d1/98/e8d1987e-9b4e-41ef-3130-36538a6740de/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 64,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 220202,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/ea/0e/4c/ea0e4cef-f481-18be-2b20-2debb3664102/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 65,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2012033,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/9b/e6/9f/9be69fc5-8f2b-86cf-7d37-f253c0c4a640/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 66,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 220230,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music118/v4/2e/12/a3/2e12a3bd-d721-3ebe-993a-54404b4afd60/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 67,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2301103,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/2a/90/c2/2a90c2b6-3642-6c5e-0504-33bf24e5e292/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 68,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2203501,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/9b/ef/35/9bef354f-561e-fba1-e01d-24577da0491e/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 69,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2100123,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/e9/4a/37/e94a3774-717e-5424-bd0d-6e553be37f45/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 70,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20340980,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/c2/3f/a4/c23fa403-72fa-09c6-f3af-58485addab19/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 71,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 200,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/6a/a9/6b/6aa96b0f-c192-d9c2-83b3-4020a4332b33/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 72,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 23033033,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/b4/84/47/b4844780-b6c0-4e59-47d5-fe61347bfa25/source/100000x100000-999.jpg"
+        }
+      ]
+    },
+    {
+      "genreId": 1,
+      "genre": "Pop",
+      "subGenre": "Adult Contemporary",
+      "release": [
+        {
+          "releaseId": 11,
+          "mainKey": "Dark",
+          "subKey": "Smooth",
+          "altKey": "Intense",
+          "plays": 1000,
+          "explicit": false,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/11/5a/83/115a8389-7fa7-47af-0824-583c09a5c19c/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 12,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 200,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/36/e1/59/36e15965-3282-e2e3-b865-b34745d5c2c3/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 13,
+          "mainKey": "Love",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2000,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music123/v4/63/96/ef/6396ef3c-b058-e999-96a9-e4ee7f03ddb2/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 14,
+          "mainKey": "Anger",
+          "subKey": "Deep",
+          "altKey": "Depressing",
+          "plays": 2001,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/2b/24/91/2b249168-3f09-13cd-204f-ee0f7f5c86f6/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 15,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 200,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/96/c7/24/96c72477-e392-f55d-2fef-32840bf3b06e/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 16,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2003,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/25/77/a6/2577a651-4316-1c1f-1366-e0ea24586f3e/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 17,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20033,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/d8/d1/51/d8d1519b-b364-09b7-aa85-fc4547a4bf9d/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 18,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2003,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/d2/49/19/d24919c5-7423-a324-eae6-009f7151453e/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 19,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20011,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/d1/ff/98/d1ff98a6-5528-cd7b-7f98-6456f1405128/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 20,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20023,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/ca/7a/48/ca7a4879-1b21-9951-943f-f18a2842a627/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 21,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2006,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/2b/bf/f5/2bbff57f-cf84-f8e3-f8d9-0cccc359de00/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 22,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20065,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/e2/4c/d1/e24cd1f1-b176-b515-2230-c736199fb09d/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 23,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music18/v4/06/31/9a/06319a9c-ac98-597e-af0e-ea23f0ae71a2/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 24,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 209,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/a3/9f/cc/a39fcca2-3d29-96df-5d57-966d5d84085e/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 25,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20440,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music118/v4/88/c3/5b/88c35b3b-3e9c-54b2-cd7a-042c717f95ec/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 26,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2400,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/6c/15/9a/6c159a6b-d320-1d86-ec72-6567ad6b82c0/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 27,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2300,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/c7/49/8f/c7498f71-d27c-94f8-7e13-aae5eefe3d2e/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 28,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2030,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/fa/3f/6e/fa3f6e03-51bd-ecc4-815e-586fc6e851a5/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 29,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 23300,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/cf/63/94/cf6394ca-1b3a-7a6b-e57b-a3d70aee6bd6/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 30,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 22200,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/da/6f/93/da6f93b8-4420-6c22-cf85-f1e7cef449e1/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 31,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2006,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/8f/c2/07/8fc20741-dfd9-fd8d-8842-9b2278f71afd/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 32,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20065,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/52/0f/0c/520f0ccd-1ddd-0c78-e9fc-c60f30499d09/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 33,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20054,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/8b/c2/be/8bc2be1d-d855-1fd3-2fb4-6c978cdc3a4c/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 34,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20011,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/a0/2a/f4/a02af436-35d2-3992-8dcc-0f985f59a12b/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 35,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 200231,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music123/v4/59/52/b3/5952b390-0f9b-d6f2-172d-3c9bded50523/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 36,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 200123,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/39/39/9c/39399c3a-c3bc-27c1-95ec-6b9a6bf3d1d7/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 37,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 200421,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music128/v4/a9/a9/24/a9a924c1-fdef-bcd8-a4ae-6fa02324922f/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 38,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2001123,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/b7/73/13/b773137e-d201-6cbb-a6b9-7bd2145b47cb/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 39,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 200112,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/18/15/51/18155148-2d9d-c7bd-8d33-e50900b11527/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 40,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 200345,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/57/89/30/5789304c-b48b-e77f-3629-3d6e7611fea3/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 41,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20042,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/ab/90/20/ab90202f-936c-3590-806b-fd745ad8a1fc/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 42,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 200267,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/a8/aa/64/a8aa64c6-7e5a-31b7-515c-bbab23ec0f4b/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 43,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20063,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music128/v4/9a/46/57/9a465740-27bc-f8a9-ccbb-34a2e49bdc2c/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 44,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2100,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/e4/31/4a/e4314a5a-70d1-22a6-8b58-dfaa14672bee/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 45,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2030,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music128/v4/96/27/37/96273729-2531-a6dc-84db-bd47bd665f8e/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 46,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 233300,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music/v4/2e/2a/64/2e2a64e1-57e4-85c2-5b0e-d70fdf726340/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 47,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 21100,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/6d/15/b7/6d15b719-60b5-bbcb-7ae4-6229ba1819c9/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 48,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 22003,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music128/v4/d3/5f/55/d35f55d3-264a-7c77-0ff5-a498f225622b/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 49,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20304,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music122/v4/82/d2/18/82d218b9-51e4-ff5c-1d08-342d82e66430/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 50,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20056,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music125/v4/18/0a/cc/180acc93-432e-821b-6b1f-0a9de611adf0/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 51,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20900,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music117/v4/61/bc/01/61bc01a3-1d2b-c043-eb94-a1b76429c778/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 52,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20090,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/36/e1/59/36e15965-3282-e2e3-b865-b34745d5c2c3/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 53,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20099,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/d9/a8/b6/d9a8b6b4-08bb-7a4f-26dc-1761d9bcdec1/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 54,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20809,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/15/04/c2/1504c212-9e32-367d-5755-834baf03583d/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 55,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 213080,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/29/55/05/29550595-ee55-5de9-24c6-01358267fc42/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 56,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 201110,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music118/v4/53/04/cb/5304cbb3-f8c7-f6ad-36b4-7516f8d09fa6/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 57,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 21010,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music118/v4/f7/dc/fd/f7dcfd11-e26b-f7cf-5e86-411dc899c6cc/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 58,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 201101,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music/v4/a3/18/40/a31840c7-2a5e-20ee-61e7-1d3e5e90b17d/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 59,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 201101,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music/v4/03/0c/bd/030cbd39-969d-7632-72bf-55b8c5949e00/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 60,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2001246,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music113/v4/4b/5a/68/4b5a68b5-722a-72ab-cc72-a905ab02bba0/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 61,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2009863,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/68/31/30/68313091-c97f-c794-b95a-bf9d59ceee5c/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 62,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2203011,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/39/0e/30/390e302d-8759-39de-0810-923ec92d5de1/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 63,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2011011,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music118/v4/e8/d1/98/e8d1987e-9b4e-41ef-3130-36538a6740de/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 64,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 220202,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/ea/0e/4c/ea0e4cef-f481-18be-2b20-2debb3664102/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 65,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2012033,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/9b/e6/9f/9be69fc5-8f2b-86cf-7d37-f253c0c4a640/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 66,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 220230,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music118/v4/2e/12/a3/2e12a3bd-d721-3ebe-993a-54404b4afd60/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 67,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2301103,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/2a/90/c2/2a90c2b6-3642-6c5e-0504-33bf24e5e292/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 68,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2203501,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/9b/ef/35/9bef354f-561e-fba1-e01d-24577da0491e/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 69,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2100123,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/e9/4a/37/e94a3774-717e-5424-bd0d-6e553be37f45/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 70,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20340980,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/c2/3f/a4/c23fa403-72fa-09c6-f3af-58485addab19/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 71,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 200,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/6a/a9/6b/6aa96b0f-c192-d9c2-83b3-4020a4332b33/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 72,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 23033033,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/b4/84/47/b4844780-b6c0-4e59-47d5-fe61347bfa25/source/100000x100000-999.jpg"
+        }
+      ]
+    },
+    {
+      "genreId": 1,
+      "genre": "Pop",
+      "subGenre": "Adult Contemporary",
+      "release": [
+        {
+          "releaseId": 11,
+          "mainKey": "Dark",
+          "subKey": "Smooth",
+          "altKey": "Intense",
+          "plays": 1000,
+          "explicit": false,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/11/5a/83/115a8389-7fa7-47af-0824-583c09a5c19c/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 12,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 200,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/36/e1/59/36e15965-3282-e2e3-b865-b34745d5c2c3/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 13,
+          "mainKey": "Love",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2000,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music123/v4/63/96/ef/6396ef3c-b058-e999-96a9-e4ee7f03ddb2/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 14,
+          "mainKey": "Anger",
+          "subKey": "Deep",
+          "altKey": "Depressing",
+          "plays": 2001,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/2b/24/91/2b249168-3f09-13cd-204f-ee0f7f5c86f6/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 15,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 200,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/96/c7/24/96c72477-e392-f55d-2fef-32840bf3b06e/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 16,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2003,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/25/77/a6/2577a651-4316-1c1f-1366-e0ea24586f3e/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 17,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20033,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/d8/d1/51/d8d1519b-b364-09b7-aa85-fc4547a4bf9d/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 18,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2003,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/d2/49/19/d24919c5-7423-a324-eae6-009f7151453e/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 19,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20011,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/d1/ff/98/d1ff98a6-5528-cd7b-7f98-6456f1405128/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 20,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20023,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/ca/7a/48/ca7a4879-1b21-9951-943f-f18a2842a627/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 21,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2006,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/2b/bf/f5/2bbff57f-cf84-f8e3-f8d9-0cccc359de00/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 22,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20065,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/e2/4c/d1/e24cd1f1-b176-b515-2230-c736199fb09d/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 23,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music18/v4/06/31/9a/06319a9c-ac98-597e-af0e-ea23f0ae71a2/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 24,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 209,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/a3/9f/cc/a39fcca2-3d29-96df-5d57-966d5d84085e/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 25,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20440,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music118/v4/88/c3/5b/88c35b3b-3e9c-54b2-cd7a-042c717f95ec/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 26,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2400,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/6c/15/9a/6c159a6b-d320-1d86-ec72-6567ad6b82c0/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 27,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2300,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/c7/49/8f/c7498f71-d27c-94f8-7e13-aae5eefe3d2e/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 28,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2030,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/fa/3f/6e/fa3f6e03-51bd-ecc4-815e-586fc6e851a5/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 29,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 23300,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/cf/63/94/cf6394ca-1b3a-7a6b-e57b-a3d70aee6bd6/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 30,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 22200,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/da/6f/93/da6f93b8-4420-6c22-cf85-f1e7cef449e1/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 31,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2006,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/8f/c2/07/8fc20741-dfd9-fd8d-8842-9b2278f71afd/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 32,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20065,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/52/0f/0c/520f0ccd-1ddd-0c78-e9fc-c60f30499d09/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 33,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20054,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/8b/c2/be/8bc2be1d-d855-1fd3-2fb4-6c978cdc3a4c/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 34,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20011,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/a0/2a/f4/a02af436-35d2-3992-8dcc-0f985f59a12b/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 35,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 200231,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music123/v4/59/52/b3/5952b390-0f9b-d6f2-172d-3c9bded50523/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 36,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 200123,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/39/39/9c/39399c3a-c3bc-27c1-95ec-6b9a6bf3d1d7/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 37,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 200421,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music128/v4/a9/a9/24/a9a924c1-fdef-bcd8-a4ae-6fa02324922f/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 38,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2001123,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/b7/73/13/b773137e-d201-6cbb-a6b9-7bd2145b47cb/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 39,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 200112,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/18/15/51/18155148-2d9d-c7bd-8d33-e50900b11527/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 40,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 200345,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/57/89/30/5789304c-b48b-e77f-3629-3d6e7611fea3/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 41,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20042,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/ab/90/20/ab90202f-936c-3590-806b-fd745ad8a1fc/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 42,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 200267,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/a8/aa/64/a8aa64c6-7e5a-31b7-515c-bbab23ec0f4b/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 43,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20063,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music128/v4/9a/46/57/9a465740-27bc-f8a9-ccbb-34a2e49bdc2c/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 44,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2100,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/e4/31/4a/e4314a5a-70d1-22a6-8b58-dfaa14672bee/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 45,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2030,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music128/v4/96/27/37/96273729-2531-a6dc-84db-bd47bd665f8e/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 46,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 233300,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music/v4/2e/2a/64/2e2a64e1-57e4-85c2-5b0e-d70fdf726340/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 47,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 21100,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/6d/15/b7/6d15b719-60b5-bbcb-7ae4-6229ba1819c9/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 48,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 22003,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music128/v4/d3/5f/55/d35f55d3-264a-7c77-0ff5-a498f225622b/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 49,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20304,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music122/v4/82/d2/18/82d218b9-51e4-ff5c-1d08-342d82e66430/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 50,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20056,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music125/v4/18/0a/cc/180acc93-432e-821b-6b1f-0a9de611adf0/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 51,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20900,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music117/v4/61/bc/01/61bc01a3-1d2b-c043-eb94-a1b76429c778/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 52,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20090,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/36/e1/59/36e15965-3282-e2e3-b865-b34745d5c2c3/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 53,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20099,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/d9/a8/b6/d9a8b6b4-08bb-7a4f-26dc-1761d9bcdec1/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 54,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20809,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/15/04/c2/1504c212-9e32-367d-5755-834baf03583d/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 55,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 213080,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/29/55/05/29550595-ee55-5de9-24c6-01358267fc42/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 56,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 201110,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music118/v4/53/04/cb/5304cbb3-f8c7-f6ad-36b4-7516f8d09fa6/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 57,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 21010,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music118/v4/f7/dc/fd/f7dcfd11-e26b-f7cf-5e86-411dc899c6cc/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 58,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 201101,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music/v4/a3/18/40/a31840c7-2a5e-20ee-61e7-1d3e5e90b17d/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 59,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 201101,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music/v4/03/0c/bd/030cbd39-969d-7632-72bf-55b8c5949e00/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 60,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2001246,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music113/v4/4b/5a/68/4b5a68b5-722a-72ab-cc72-a905ab02bba0/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 61,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2009863,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/68/31/30/68313091-c97f-c794-b95a-bf9d59ceee5c/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 62,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2203011,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/39/0e/30/390e302d-8759-39de-0810-923ec92d5de1/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 63,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2011011,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music118/v4/e8/d1/98/e8d1987e-9b4e-41ef-3130-36538a6740de/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 64,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 220202,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/ea/0e/4c/ea0e4cef-f481-18be-2b20-2debb3664102/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 65,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2012033,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/9b/e6/9f/9be69fc5-8f2b-86cf-7d37-f253c0c4a640/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 66,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 220230,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music118/v4/2e/12/a3/2e12a3bd-d721-3ebe-993a-54404b4afd60/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 67,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2301103,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/2a/90/c2/2a90c2b6-3642-6c5e-0504-33bf24e5e292/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 68,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2203501,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/9b/ef/35/9bef354f-561e-fba1-e01d-24577da0491e/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 69,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2100123,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/e9/4a/37/e94a3774-717e-5424-bd0d-6e553be37f45/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 70,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20340980,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/c2/3f/a4/c23fa403-72fa-09c6-f3af-58485addab19/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 71,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 200,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/6a/a9/6b/6aa96b0f-c192-d9c2-83b3-4020a4332b33/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 72,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 23033033,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/b4/84/47/b4844780-b6c0-4e59-47d5-fe61347bfa25/source/100000x100000-999.jpg"
+        }
+      ]
+    },
+    {
+      "genreId": 1,
+      "genre": "Pop",
+      "subGenre": "Adult Contemporary",
+      "release": [
+        {
+          "releaseId": 11,
+          "mainKey": "Dark",
+          "subKey": "Smooth",
+          "altKey": "Intense",
+          "plays": 1000,
+          "explicit": false,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/11/5a/83/115a8389-7fa7-47af-0824-583c09a5c19c/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 12,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 200,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/36/e1/59/36e15965-3282-e2e3-b865-b34745d5c2c3/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 13,
+          "mainKey": "Love",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2000,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music123/v4/63/96/ef/6396ef3c-b058-e999-96a9-e4ee7f03ddb2/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 14,
+          "mainKey": "Anger",
+          "subKey": "Deep",
+          "altKey": "Depressing",
+          "plays": 2001,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/2b/24/91/2b249168-3f09-13cd-204f-ee0f7f5c86f6/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 15,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 200,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/96/c7/24/96c72477-e392-f55d-2fef-32840bf3b06e/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 16,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2003,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/25/77/a6/2577a651-4316-1c1f-1366-e0ea24586f3e/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 17,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20033,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/d8/d1/51/d8d1519b-b364-09b7-aa85-fc4547a4bf9d/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 18,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2003,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/d2/49/19/d24919c5-7423-a324-eae6-009f7151453e/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 19,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20011,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/d1/ff/98/d1ff98a6-5528-cd7b-7f98-6456f1405128/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 20,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20023,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/ca/7a/48/ca7a4879-1b21-9951-943f-f18a2842a627/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 21,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2006,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/2b/bf/f5/2bbff57f-cf84-f8e3-f8d9-0cccc359de00/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 22,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20065,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/e2/4c/d1/e24cd1f1-b176-b515-2230-c736199fb09d/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 23,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music18/v4/06/31/9a/06319a9c-ac98-597e-af0e-ea23f0ae71a2/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 24,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 209,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/a3/9f/cc/a39fcca2-3d29-96df-5d57-966d5d84085e/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 25,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20440,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music118/v4/88/c3/5b/88c35b3b-3e9c-54b2-cd7a-042c717f95ec/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 26,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2400,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/6c/15/9a/6c159a6b-d320-1d86-ec72-6567ad6b82c0/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 27,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2300,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/c7/49/8f/c7498f71-d27c-94f8-7e13-aae5eefe3d2e/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 28,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2030,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/fa/3f/6e/fa3f6e03-51bd-ecc4-815e-586fc6e851a5/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 29,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 23300,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/cf/63/94/cf6394ca-1b3a-7a6b-e57b-a3d70aee6bd6/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 30,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 22200,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/da/6f/93/da6f93b8-4420-6c22-cf85-f1e7cef449e1/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 31,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2006,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/8f/c2/07/8fc20741-dfd9-fd8d-8842-9b2278f71afd/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 32,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20065,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/52/0f/0c/520f0ccd-1ddd-0c78-e9fc-c60f30499d09/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 33,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20054,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/8b/c2/be/8bc2be1d-d855-1fd3-2fb4-6c978cdc3a4c/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 34,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20011,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/a0/2a/f4/a02af436-35d2-3992-8dcc-0f985f59a12b/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 35,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 200231,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music123/v4/59/52/b3/5952b390-0f9b-d6f2-172d-3c9bded50523/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 36,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 200123,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/39/39/9c/39399c3a-c3bc-27c1-95ec-6b9a6bf3d1d7/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 37,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 200421,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music128/v4/a9/a9/24/a9a924c1-fdef-bcd8-a4ae-6fa02324922f/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 38,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2001123,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/b7/73/13/b773137e-d201-6cbb-a6b9-7bd2145b47cb/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 39,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 200112,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/18/15/51/18155148-2d9d-c7bd-8d33-e50900b11527/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 40,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 200345,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/57/89/30/5789304c-b48b-e77f-3629-3d6e7611fea3/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 41,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20042,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/ab/90/20/ab90202f-936c-3590-806b-fd745ad8a1fc/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 42,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 200267,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/a8/aa/64/a8aa64c6-7e5a-31b7-515c-bbab23ec0f4b/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 43,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20063,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music128/v4/9a/46/57/9a465740-27bc-f8a9-ccbb-34a2e49bdc2c/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 44,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2100,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/e4/31/4a/e4314a5a-70d1-22a6-8b58-dfaa14672bee/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 45,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2030,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music128/v4/96/27/37/96273729-2531-a6dc-84db-bd47bd665f8e/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 46,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 233300,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music/v4/2e/2a/64/2e2a64e1-57e4-85c2-5b0e-d70fdf726340/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 47,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 21100,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/6d/15/b7/6d15b719-60b5-bbcb-7ae4-6229ba1819c9/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 48,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 22003,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music128/v4/d3/5f/55/d35f55d3-264a-7c77-0ff5-a498f225622b/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 49,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20304,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music122/v4/82/d2/18/82d218b9-51e4-ff5c-1d08-342d82e66430/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 50,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20056,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music125/v4/18/0a/cc/180acc93-432e-821b-6b1f-0a9de611adf0/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 51,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20900,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music117/v4/61/bc/01/61bc01a3-1d2b-c043-eb94-a1b76429c778/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 52,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20090,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/36/e1/59/36e15965-3282-e2e3-b865-b34745d5c2c3/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 53,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20099,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/d9/a8/b6/d9a8b6b4-08bb-7a4f-26dc-1761d9bcdec1/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 54,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20809,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/15/04/c2/1504c212-9e32-367d-5755-834baf03583d/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 55,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 213080,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/29/55/05/29550595-ee55-5de9-24c6-01358267fc42/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 56,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 201110,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music118/v4/53/04/cb/5304cbb3-f8c7-f6ad-36b4-7516f8d09fa6/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 57,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 21010,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music118/v4/f7/dc/fd/f7dcfd11-e26b-f7cf-5e86-411dc899c6cc/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 58,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 201101,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music/v4/a3/18/40/a31840c7-2a5e-20ee-61e7-1d3e5e90b17d/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 59,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 201101,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music/v4/03/0c/bd/030cbd39-969d-7632-72bf-55b8c5949e00/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 60,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2001246,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music113/v4/4b/5a/68/4b5a68b5-722a-72ab-cc72-a905ab02bba0/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 61,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2009863,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/68/31/30/68313091-c97f-c794-b95a-bf9d59ceee5c/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 62,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2203011,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/39/0e/30/390e302d-8759-39de-0810-923ec92d5de1/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 63,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2011011,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music118/v4/e8/d1/98/e8d1987e-9b4e-41ef-3130-36538a6740de/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 64,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 220202,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/ea/0e/4c/ea0e4cef-f481-18be-2b20-2debb3664102/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 65,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2012033,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/9b/e6/9f/9be69fc5-8f2b-86cf-7d37-f253c0c4a640/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 66,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 220230,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music118/v4/2e/12/a3/2e12a3bd-d721-3ebe-993a-54404b4afd60/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 67,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2301103,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/2a/90/c2/2a90c2b6-3642-6c5e-0504-33bf24e5e292/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 68,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2203501,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/9b/ef/35/9bef354f-561e-fba1-e01d-24577da0491e/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 69,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2100123,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/e9/4a/37/e94a3774-717e-5424-bd0d-6e553be37f45/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 70,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20340980,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/c2/3f/a4/c23fa403-72fa-09c6-f3af-58485addab19/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 71,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 200,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/6a/a9/6b/6aa96b0f-c192-d9c2-83b3-4020a4332b33/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 72,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 23033033,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/b4/84/47/b4844780-b6c0-4e59-47d5-fe61347bfa25/source/100000x100000-999.jpg"
+        }
+      ]
+    },
+    {
+      "genreId": 1,
+      "genre": "Pop",
+      "subGenre": "Adult Contemporary",
+      "release": [
+        {
+          "releaseId": 11,
+          "mainKey": "Dark",
+          "subKey": "Smooth",
+          "altKey": "Intense",
+          "plays": 1000,
+          "explicit": false,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/11/5a/83/115a8389-7fa7-47af-0824-583c09a5c19c/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 12,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 200,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/36/e1/59/36e15965-3282-e2e3-b865-b34745d5c2c3/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 13,
+          "mainKey": "Love",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2000,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music123/v4/63/96/ef/6396ef3c-b058-e999-96a9-e4ee7f03ddb2/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 14,
+          "mainKey": "Anger",
+          "subKey": "Deep",
+          "altKey": "Depressing",
+          "plays": 2001,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/2b/24/91/2b249168-3f09-13cd-204f-ee0f7f5c86f6/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 15,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 200,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/96/c7/24/96c72477-e392-f55d-2fef-32840bf3b06e/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 16,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2003,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/25/77/a6/2577a651-4316-1c1f-1366-e0ea24586f3e/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 17,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20033,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/d8/d1/51/d8d1519b-b364-09b7-aa85-fc4547a4bf9d/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 18,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2003,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/d2/49/19/d24919c5-7423-a324-eae6-009f7151453e/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 19,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20011,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/d1/ff/98/d1ff98a6-5528-cd7b-7f98-6456f1405128/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 20,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20023,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/ca/7a/48/ca7a4879-1b21-9951-943f-f18a2842a627/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 21,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2006,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/2b/bf/f5/2bbff57f-cf84-f8e3-f8d9-0cccc359de00/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 22,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20065,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/e2/4c/d1/e24cd1f1-b176-b515-2230-c736199fb09d/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 23,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music18/v4/06/31/9a/06319a9c-ac98-597e-af0e-ea23f0ae71a2/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 24,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 209,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/a3/9f/cc/a39fcca2-3d29-96df-5d57-966d5d84085e/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 25,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20440,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music118/v4/88/c3/5b/88c35b3b-3e9c-54b2-cd7a-042c717f95ec/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 26,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2400,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/6c/15/9a/6c159a6b-d320-1d86-ec72-6567ad6b82c0/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 27,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2300,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/c7/49/8f/c7498f71-d27c-94f8-7e13-aae5eefe3d2e/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 28,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2030,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/fa/3f/6e/fa3f6e03-51bd-ecc4-815e-586fc6e851a5/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 29,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 23300,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/cf/63/94/cf6394ca-1b3a-7a6b-e57b-a3d70aee6bd6/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 30,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 22200,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/da/6f/93/da6f93b8-4420-6c22-cf85-f1e7cef449e1/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 31,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2006,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/8f/c2/07/8fc20741-dfd9-fd8d-8842-9b2278f71afd/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 32,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20065,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/52/0f/0c/520f0ccd-1ddd-0c78-e9fc-c60f30499d09/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 33,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20054,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/8b/c2/be/8bc2be1d-d855-1fd3-2fb4-6c978cdc3a4c/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 34,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20011,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/a0/2a/f4/a02af436-35d2-3992-8dcc-0f985f59a12b/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 35,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 200231,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music123/v4/59/52/b3/5952b390-0f9b-d6f2-172d-3c9bded50523/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 36,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 200123,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/39/39/9c/39399c3a-c3bc-27c1-95ec-6b9a6bf3d1d7/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 37,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 200421,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music128/v4/a9/a9/24/a9a924c1-fdef-bcd8-a4ae-6fa02324922f/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 38,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2001123,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/b7/73/13/b773137e-d201-6cbb-a6b9-7bd2145b47cb/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 39,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 200112,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/18/15/51/18155148-2d9d-c7bd-8d33-e50900b11527/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 40,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 200345,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/57/89/30/5789304c-b48b-e77f-3629-3d6e7611fea3/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 41,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20042,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/ab/90/20/ab90202f-936c-3590-806b-fd745ad8a1fc/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 42,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 200267,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/a8/aa/64/a8aa64c6-7e5a-31b7-515c-bbab23ec0f4b/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 43,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20063,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music128/v4/9a/46/57/9a465740-27bc-f8a9-ccbb-34a2e49bdc2c/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 44,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2100,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/e4/31/4a/e4314a5a-70d1-22a6-8b58-dfaa14672bee/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 45,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2030,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music128/v4/96/27/37/96273729-2531-a6dc-84db-bd47bd665f8e/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 46,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 233300,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music/v4/2e/2a/64/2e2a64e1-57e4-85c2-5b0e-d70fdf726340/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 47,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 21100,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/6d/15/b7/6d15b719-60b5-bbcb-7ae4-6229ba1819c9/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 48,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 22003,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music128/v4/d3/5f/55/d35f55d3-264a-7c77-0ff5-a498f225622b/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 49,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20304,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music122/v4/82/d2/18/82d218b9-51e4-ff5c-1d08-342d82e66430/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 50,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20056,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music125/v4/18/0a/cc/180acc93-432e-821b-6b1f-0a9de611adf0/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 51,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20900,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music117/v4/61/bc/01/61bc01a3-1d2b-c043-eb94-a1b76429c778/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 52,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20090,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/36/e1/59/36e15965-3282-e2e3-b865-b34745d5c2c3/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 53,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20099,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/d9/a8/b6/d9a8b6b4-08bb-7a4f-26dc-1761d9bcdec1/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 54,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20809,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/15/04/c2/1504c212-9e32-367d-5755-834baf03583d/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 55,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 213080,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/29/55/05/29550595-ee55-5de9-24c6-01358267fc42/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 56,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 201110,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music118/v4/53/04/cb/5304cbb3-f8c7-f6ad-36b4-7516f8d09fa6/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 57,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 21010,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music118/v4/f7/dc/fd/f7dcfd11-e26b-f7cf-5e86-411dc899c6cc/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 58,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 201101,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music/v4/a3/18/40/a31840c7-2a5e-20ee-61e7-1d3e5e90b17d/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 59,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 201101,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music/v4/03/0c/bd/030cbd39-969d-7632-72bf-55b8c5949e00/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 60,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2001246,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music113/v4/4b/5a/68/4b5a68b5-722a-72ab-cc72-a905ab02bba0/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 61,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2009863,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/68/31/30/68313091-c97f-c794-b95a-bf9d59ceee5c/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 62,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2203011,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/39/0e/30/390e302d-8759-39de-0810-923ec92d5de1/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 63,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2011011,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music118/v4/e8/d1/98/e8d1987e-9b4e-41ef-3130-36538a6740de/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 64,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 220202,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/ea/0e/4c/ea0e4cef-f481-18be-2b20-2debb3664102/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 65,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2012033,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/9b/e6/9f/9be69fc5-8f2b-86cf-7d37-f253c0c4a640/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 66,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 220230,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music118/v4/2e/12/a3/2e12a3bd-d721-3ebe-993a-54404b4afd60/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 67,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2301103,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/2a/90/c2/2a90c2b6-3642-6c5e-0504-33bf24e5e292/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 68,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2203501,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/9b/ef/35/9bef354f-561e-fba1-e01d-24577da0491e/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 69,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2100123,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/e9/4a/37/e94a3774-717e-5424-bd0d-6e553be37f45/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 70,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20340980,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/c2/3f/a4/c23fa403-72fa-09c6-f3af-58485addab19/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 71,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 200,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/6a/a9/6b/6aa96b0f-c192-d9c2-83b3-4020a4332b33/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 72,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 23033033,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/b4/84/47/b4844780-b6c0-4e59-47d5-fe61347bfa25/source/100000x100000-999.jpg"
+        }
+      ]
+    },
+    {
+      "genreId": 1,
+      "genre": "Pop",
+      "subGenre": "Adult Contemporary",
+      "release": [
+        {
+          "releaseId": 11,
+          "mainKey": "Dark",
+          "subKey": "Smooth",
+          "altKey": "Intense",
+          "plays": 1000,
+          "explicit": false,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/11/5a/83/115a8389-7fa7-47af-0824-583c09a5c19c/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 12,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 200,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/36/e1/59/36e15965-3282-e2e3-b865-b34745d5c2c3/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 13,
+          "mainKey": "Love",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2000,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music123/v4/63/96/ef/6396ef3c-b058-e999-96a9-e4ee7f03ddb2/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 14,
+          "mainKey": "Anger",
+          "subKey": "Deep",
+          "altKey": "Depressing",
+          "plays": 2001,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/2b/24/91/2b249168-3f09-13cd-204f-ee0f7f5c86f6/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 15,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 200,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/96/c7/24/96c72477-e392-f55d-2fef-32840bf3b06e/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 16,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2003,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/25/77/a6/2577a651-4316-1c1f-1366-e0ea24586f3e/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 17,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20033,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/d8/d1/51/d8d1519b-b364-09b7-aa85-fc4547a4bf9d/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 18,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2003,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/d2/49/19/d24919c5-7423-a324-eae6-009f7151453e/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 19,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20011,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/d1/ff/98/d1ff98a6-5528-cd7b-7f98-6456f1405128/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 20,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20023,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/ca/7a/48/ca7a4879-1b21-9951-943f-f18a2842a627/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 21,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2006,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/2b/bf/f5/2bbff57f-cf84-f8e3-f8d9-0cccc359de00/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 22,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20065,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/e2/4c/d1/e24cd1f1-b176-b515-2230-c736199fb09d/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 23,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music18/v4/06/31/9a/06319a9c-ac98-597e-af0e-ea23f0ae71a2/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 24,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 209,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/a3/9f/cc/a39fcca2-3d29-96df-5d57-966d5d84085e/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 25,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20440,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music118/v4/88/c3/5b/88c35b3b-3e9c-54b2-cd7a-042c717f95ec/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 26,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2400,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/6c/15/9a/6c159a6b-d320-1d86-ec72-6567ad6b82c0/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 27,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2300,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/c7/49/8f/c7498f71-d27c-94f8-7e13-aae5eefe3d2e/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 28,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2030,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/fa/3f/6e/fa3f6e03-51bd-ecc4-815e-586fc6e851a5/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 29,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 23300,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/cf/63/94/cf6394ca-1b3a-7a6b-e57b-a3d70aee6bd6/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 30,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 22200,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/da/6f/93/da6f93b8-4420-6c22-cf85-f1e7cef449e1/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 31,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2006,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/8f/c2/07/8fc20741-dfd9-fd8d-8842-9b2278f71afd/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 32,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20065,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/52/0f/0c/520f0ccd-1ddd-0c78-e9fc-c60f30499d09/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 33,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20054,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/8b/c2/be/8bc2be1d-d855-1fd3-2fb4-6c978cdc3a4c/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 34,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20011,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/a0/2a/f4/a02af436-35d2-3992-8dcc-0f985f59a12b/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 35,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 200231,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music123/v4/59/52/b3/5952b390-0f9b-d6f2-172d-3c9bded50523/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 36,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 200123,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/39/39/9c/39399c3a-c3bc-27c1-95ec-6b9a6bf3d1d7/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 37,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 200421,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music128/v4/a9/a9/24/a9a924c1-fdef-bcd8-a4ae-6fa02324922f/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 38,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2001123,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/b7/73/13/b773137e-d201-6cbb-a6b9-7bd2145b47cb/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 39,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 200112,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/18/15/51/18155148-2d9d-c7bd-8d33-e50900b11527/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 40,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 200345,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/57/89/30/5789304c-b48b-e77f-3629-3d6e7611fea3/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 41,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20042,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/ab/90/20/ab90202f-936c-3590-806b-fd745ad8a1fc/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 42,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 200267,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/a8/aa/64/a8aa64c6-7e5a-31b7-515c-bbab23ec0f4b/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 43,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20063,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music128/v4/9a/46/57/9a465740-27bc-f8a9-ccbb-34a2e49bdc2c/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 44,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2100,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/e4/31/4a/e4314a5a-70d1-22a6-8b58-dfaa14672bee/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 45,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2030,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music128/v4/96/27/37/96273729-2531-a6dc-84db-bd47bd665f8e/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 46,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 233300,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music/v4/2e/2a/64/2e2a64e1-57e4-85c2-5b0e-d70fdf726340/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 47,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 21100,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/6d/15/b7/6d15b719-60b5-bbcb-7ae4-6229ba1819c9/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 48,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 22003,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music128/v4/d3/5f/55/d35f55d3-264a-7c77-0ff5-a498f225622b/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 49,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20304,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music122/v4/82/d2/18/82d218b9-51e4-ff5c-1d08-342d82e66430/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 50,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20056,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music125/v4/18/0a/cc/180acc93-432e-821b-6b1f-0a9de611adf0/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 51,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20900,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music117/v4/61/bc/01/61bc01a3-1d2b-c043-eb94-a1b76429c778/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 52,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20090,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/36/e1/59/36e15965-3282-e2e3-b865-b34745d5c2c3/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 53,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20099,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/d9/a8/b6/d9a8b6b4-08bb-7a4f-26dc-1761d9bcdec1/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 54,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20809,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/15/04/c2/1504c212-9e32-367d-5755-834baf03583d/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 55,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 213080,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/29/55/05/29550595-ee55-5de9-24c6-01358267fc42/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 56,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 201110,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music118/v4/53/04/cb/5304cbb3-f8c7-f6ad-36b4-7516f8d09fa6/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 57,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 21010,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music118/v4/f7/dc/fd/f7dcfd11-e26b-f7cf-5e86-411dc899c6cc/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 58,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 201101,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music/v4/a3/18/40/a31840c7-2a5e-20ee-61e7-1d3e5e90b17d/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 59,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 201101,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music/v4/03/0c/bd/030cbd39-969d-7632-72bf-55b8c5949e00/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 60,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2001246,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music113/v4/4b/5a/68/4b5a68b5-722a-72ab-cc72-a905ab02bba0/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 61,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2009863,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/68/31/30/68313091-c97f-c794-b95a-bf9d59ceee5c/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 62,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2203011,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/39/0e/30/390e302d-8759-39de-0810-923ec92d5de1/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 63,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2011011,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music118/v4/e8/d1/98/e8d1987e-9b4e-41ef-3130-36538a6740de/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 64,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 220202,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/ea/0e/4c/ea0e4cef-f481-18be-2b20-2debb3664102/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 65,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2012033,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/9b/e6/9f/9be69fc5-8f2b-86cf-7d37-f253c0c4a640/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 66,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 220230,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music118/v4/2e/12/a3/2e12a3bd-d721-3ebe-993a-54404b4afd60/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 67,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2301103,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/2a/90/c2/2a90c2b6-3642-6c5e-0504-33bf24e5e292/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 68,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2203501,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/9b/ef/35/9bef354f-561e-fba1-e01d-24577da0491e/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 69,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2100123,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/e9/4a/37/e94a3774-717e-5424-bd0d-6e553be37f45/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 70,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20340980,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/c2/3f/a4/c23fa403-72fa-09c6-f3af-58485addab19/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 71,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 200,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/6a/a9/6b/6aa96b0f-c192-d9c2-83b3-4020a4332b33/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 72,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 23033033,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/b4/84/47/b4844780-b6c0-4e59-47d5-fe61347bfa25/source/100000x100000-999.jpg"
+        }
+      ]
+    },
+    {
+      "genreId": 1,
+      "genre": "Pop",
+      "subGenre": "Adult Contemporary",
+      "release": [
+        {
+          "releaseId": 11,
+          "mainKey": "Dark",
+          "subKey": "Smooth",
+          "altKey": "Intense",
+          "plays": 1000,
+          "explicit": false,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/11/5a/83/115a8389-7fa7-47af-0824-583c09a5c19c/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 12,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 200,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/36/e1/59/36e15965-3282-e2e3-b865-b34745d5c2c3/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 13,
+          "mainKey": "Love",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2000,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music123/v4/63/96/ef/6396ef3c-b058-e999-96a9-e4ee7f03ddb2/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 14,
+          "mainKey": "Anger",
+          "subKey": "Deep",
+          "altKey": "Depressing",
+          "plays": 2001,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/2b/24/91/2b249168-3f09-13cd-204f-ee0f7f5c86f6/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 15,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 200,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/96/c7/24/96c72477-e392-f55d-2fef-32840bf3b06e/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 16,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2003,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/25/77/a6/2577a651-4316-1c1f-1366-e0ea24586f3e/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 17,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20033,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/d8/d1/51/d8d1519b-b364-09b7-aa85-fc4547a4bf9d/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 18,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2003,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/d2/49/19/d24919c5-7423-a324-eae6-009f7151453e/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 19,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20011,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/d1/ff/98/d1ff98a6-5528-cd7b-7f98-6456f1405128/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 20,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20023,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/ca/7a/48/ca7a4879-1b21-9951-943f-f18a2842a627/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 21,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2006,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/2b/bf/f5/2bbff57f-cf84-f8e3-f8d9-0cccc359de00/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 22,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20065,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/e2/4c/d1/e24cd1f1-b176-b515-2230-c736199fb09d/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 23,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music18/v4/06/31/9a/06319a9c-ac98-597e-af0e-ea23f0ae71a2/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 24,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 209,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/a3/9f/cc/a39fcca2-3d29-96df-5d57-966d5d84085e/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 25,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20440,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music118/v4/88/c3/5b/88c35b3b-3e9c-54b2-cd7a-042c717f95ec/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 26,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2400,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/6c/15/9a/6c159a6b-d320-1d86-ec72-6567ad6b82c0/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 27,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2300,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/c7/49/8f/c7498f71-d27c-94f8-7e13-aae5eefe3d2e/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 28,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2030,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/fa/3f/6e/fa3f6e03-51bd-ecc4-815e-586fc6e851a5/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 29,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 23300,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/cf/63/94/cf6394ca-1b3a-7a6b-e57b-a3d70aee6bd6/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 30,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 22200,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/da/6f/93/da6f93b8-4420-6c22-cf85-f1e7cef449e1/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 31,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2006,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/8f/c2/07/8fc20741-dfd9-fd8d-8842-9b2278f71afd/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 32,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20065,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/52/0f/0c/520f0ccd-1ddd-0c78-e9fc-c60f30499d09/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 33,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20054,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/8b/c2/be/8bc2be1d-d855-1fd3-2fb4-6c978cdc3a4c/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 34,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20011,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/a0/2a/f4/a02af436-35d2-3992-8dcc-0f985f59a12b/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 35,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 200231,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music123/v4/59/52/b3/5952b390-0f9b-d6f2-172d-3c9bded50523/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 36,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 200123,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/39/39/9c/39399c3a-c3bc-27c1-95ec-6b9a6bf3d1d7/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 37,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 200421,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music128/v4/a9/a9/24/a9a924c1-fdef-bcd8-a4ae-6fa02324922f/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 38,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2001123,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/b7/73/13/b773137e-d201-6cbb-a6b9-7bd2145b47cb/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 39,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 200112,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/18/15/51/18155148-2d9d-c7bd-8d33-e50900b11527/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 40,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 200345,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/57/89/30/5789304c-b48b-e77f-3629-3d6e7611fea3/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 41,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20042,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/ab/90/20/ab90202f-936c-3590-806b-fd745ad8a1fc/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 42,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 200267,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/a8/aa/64/a8aa64c6-7e5a-31b7-515c-bbab23ec0f4b/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 43,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20063,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music128/v4/9a/46/57/9a465740-27bc-f8a9-ccbb-34a2e49bdc2c/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 44,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2100,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/e4/31/4a/e4314a5a-70d1-22a6-8b58-dfaa14672bee/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 45,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2030,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music128/v4/96/27/37/96273729-2531-a6dc-84db-bd47bd665f8e/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 46,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 233300,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music/v4/2e/2a/64/2e2a64e1-57e4-85c2-5b0e-d70fdf726340/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 47,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 21100,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/6d/15/b7/6d15b719-60b5-bbcb-7ae4-6229ba1819c9/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 48,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 22003,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music128/v4/d3/5f/55/d35f55d3-264a-7c77-0ff5-a498f225622b/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 49,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20304,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music122/v4/82/d2/18/82d218b9-51e4-ff5c-1d08-342d82e66430/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 50,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20056,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music125/v4/18/0a/cc/180acc93-432e-821b-6b1f-0a9de611adf0/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 51,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20900,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music117/v4/61/bc/01/61bc01a3-1d2b-c043-eb94-a1b76429c778/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 52,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20090,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/36/e1/59/36e15965-3282-e2e3-b865-b34745d5c2c3/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 53,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20099,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/d9/a8/b6/d9a8b6b4-08bb-7a4f-26dc-1761d9bcdec1/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 54,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20809,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/15/04/c2/1504c212-9e32-367d-5755-834baf03583d/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 55,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 213080,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/29/55/05/29550595-ee55-5de9-24c6-01358267fc42/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 56,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 201110,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music118/v4/53/04/cb/5304cbb3-f8c7-f6ad-36b4-7516f8d09fa6/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 57,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 21010,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music118/v4/f7/dc/fd/f7dcfd11-e26b-f7cf-5e86-411dc899c6cc/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 58,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 201101,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music/v4/a3/18/40/a31840c7-2a5e-20ee-61e7-1d3e5e90b17d/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 59,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 201101,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music/v4/03/0c/bd/030cbd39-969d-7632-72bf-55b8c5949e00/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 60,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2001246,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music113/v4/4b/5a/68/4b5a68b5-722a-72ab-cc72-a905ab02bba0/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 61,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2009863,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/68/31/30/68313091-c97f-c794-b95a-bf9d59ceee5c/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 62,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2203011,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/39/0e/30/390e302d-8759-39de-0810-923ec92d5de1/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 63,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2011011,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music118/v4/e8/d1/98/e8d1987e-9b4e-41ef-3130-36538a6740de/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 64,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 220202,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/ea/0e/4c/ea0e4cef-f481-18be-2b20-2debb3664102/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 65,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2012033,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/9b/e6/9f/9be69fc5-8f2b-86cf-7d37-f253c0c4a640/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 66,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 220230,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music118/v4/2e/12/a3/2e12a3bd-d721-3ebe-993a-54404b4afd60/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 67,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2301103,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/2a/90/c2/2a90c2b6-3642-6c5e-0504-33bf24e5e292/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 68,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2203501,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/9b/ef/35/9bef354f-561e-fba1-e01d-24577da0491e/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 69,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 2100123,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/e9/4a/37/e94a3774-717e-5424-bd0d-6e553be37f45/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 70,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 20340980,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/c2/3f/a4/c23fa403-72fa-09c6-f3af-58485addab19/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 71,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 200,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music114/v4/6a/a9/6b/6aa96b0f-c192-d9c2-83b3-4020a4332b33/source/100000x100000-999.jpg"
+        },
+        {
+          "releaseId": 72,
+          "mainKey": "Upbeat",
+          "subKey": "Party",
+          "altKey": "Excitement",
+          "plays": 23033033,
+          "explicit": true,
+          "artwork": "http://is5.mzstatic.com/image/thumb/Music124/v4/b4/84/47/b4844780-b6c0-4e59-47d5-fe61347bfa25/source/100000x100000-999.jpg"
+        }
+      ]
+    }
+  ],
+  "success": true,
+  "statusCode": 200
+}
