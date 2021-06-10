@@ -122,7 +122,7 @@ function renderToBrowser(item) {
   arrowLeft = document.querySelectorAll(".arrow-left");
   progress = document.querySelectorAll(".progressbar span");
 
-  setupInitialSize();
+  setupSizes();
   progressBarSetup(0, "setup", sliders);
   listenToClickEventsAndSliderFunc();
   hoverBox();
@@ -287,14 +287,17 @@ function getScrollBarWidth() {
   scrollBarWidth = window.innerWidth - document.body.clientWidth;
 }
 
-function setupInitialSize() {
+function setupSizes() {
   getScrollBarWidth();
+
   for (let x = 0; x < allUlTags.length; x++) {
     const ul = allUlTags[x];
     ul.style.flex =
       "0 0 calc((100vw - " + (60 + scrollBarWidth + 60 + 20) + "px) / 6)";
-    ul.style.height = "calc((100vw - " + (60 + scrollBarWidth + 60 + 20) + "px) / 6)";
+    ul.style.height =
+      "calc((100vw - " + (60 + scrollBarWidth + 60 + 20) + "px) / 6)";
   }
+
   for (let y = 0; y < arrowRight.length; y++) {
     const arrow = arrowRight[y];
     arrow.style.width = "60px";
@@ -304,49 +307,80 @@ function setupInitialSize() {
     const arrow = arrowLeft[u];
     arrow.style.width = "60px";
   }
+
+  document.body.style.setProperty(
+    "--ul-width",
+    allUlTags[0].clientWidth + "px"
+  );
+  document.body.style.setProperty(
+    "--ul-height",
+    allUlTags[0].clientHeight + "px"
+  );
 }
 
 function hoverBox() {
   let id = undefined;
   let parentSliderHoverEvent = undefined;
   let divHoverBoxHow = undefined;
+  let HoverStatus = false;
+  let bgi = undefined;
 
   for (let x = 0; x < allUlTags.length; x++) {
     const ul = allUlTags[x];
 
-    ul.addEventListener("mouseover", (e) => {
-      parentSliderHoverEvent = ul.parentElement.parentElement;
-      id = setTimeout(() => {
+    ul.addEventListener("mousemove", () => {
+      if (HoverStatus === false) {
+        HoverStatus = true;
+
+        parentSliderHoverEvent = ul.parentElement.parentElement;
+        bgi = ul.firstChild.firstChild.getAttribute("src");
+
         divHoverBoxHow = createElement(
           "div",
-          "." + parentSliderHoverEvent.classList[1],
+          "." + parentSliderHoverEvent.classList[1] + " ." + ul.classList[1],
           "",
           {
             class: "hover-box-showed",
           }
         );
 
+        createElement("div", "." + divHoverBoxHow.className, "", {
+          class: "hover-box-image",
+          style: "background-image: url(" + bgi + ");",
+        });
 
-        divHoverBoxHow.setAttribute(
-          "style",
-          "--hover-box-width: " +
-            ul.clientWidth +
-            "px; left: " +
-            (ul.offsetLeft + 8) +
-            "px;"
+        let divContent = createElement(
+          "div",
+          "." + divHoverBoxHow.className,
+          "",
+          {
+            class: "content-individual-movie",
+          }
         );
 
         divHoverBoxHow.addEventListener("mouseleave", () => {
-          clearTimeout(id);
-          divHoverBoxHow.remove();
+          document.body.style.setProperty(
+            "--hover-box-width-while-move",
+            divHoverBoxHow.clientWidth + "px"
+          );
+          
+          document.body.style.setProperty(
+            "--hover-box-height-while-move",
+            divHoverBoxHow.clientHeight + "px"
+          );
+
+          divHoverBoxHow.classList.add("leave");
+
+          divContent.classList.add("hide");
+
+          id = setTimeout(() => {
+            divHoverBoxHow.remove();
+            clearTimeout(id);
+            HoverStatus = false;
+            divContent.setAttribute("hoverStatus", HoverStatus);
+          }, 900);
         });
-
-      }, 400);
-
-      ul.addEventListener("mouseleave", () => {
-        clearTimeout(id);
-      });
-      
+      }
     });
   }
 }
