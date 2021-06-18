@@ -307,80 +307,176 @@ function setupSizes() {
     const arrow = arrowLeft[u];
     arrow.style.width = "60px";
   }
-
-  document.body.style.setProperty(
-    "--ul-width",
-    allUlTags[0].clientWidth + "px"
-  );
-  document.body.style.setProperty(
-    "--ul-height",
-    allUlTags[0].clientHeight + "px"
-  );
 }
 
+let idCheck = undefined;
+
 function hoverBox() {
+  let imageBox = undefined;
+  let hoveredBox = undefined;
   let id = undefined;
-  let parentSliderHoverEvent = undefined;
-  let divHoverBoxHow = undefined;
-  let HoverStatus = false;
-  let bgi = undefined;
 
   for (let x = 0; x < allUlTags.length; x++) {
     const ul = allUlTags[x];
 
-    ul.addEventListener("mousemove", () => {
-      if (HoverStatus === false) {
-        HoverStatus = true;
+    ul.addEventListener("mouseenter", () => {
+      let parentCurrentUl = ul.parentElement.parentElement;
+      imageBox = ul.firstChild.firstChild.getAttribute("src");
 
-        parentSliderHoverEvent = ul.parentElement.parentElement;
-        bgi = ul.firstChild.firstChild.getAttribute("src");
+      hoveredBox = createElement(
+        "div",
+        "." + parentCurrentUl.classList[1] + " ." + ul.classList[1],
+        "",
+        {
+          class: "hover-box",
+          style: "background-image: url(" + imageBox + ");",
+        }
+      );
 
-        divHoverBoxHow = createElement(
-          "div",
-          "." + parentSliderHoverEvent.classList[1] + " ." + ul.classList[1],
-          "",
-          {
-            class: "hover-box-showed",
-          }
-        );
+      id = setTimeout(() => {
+        boxAnim(hoveredBox, "show");
+      }, 600);
 
-        createElement("div", "." + divHoverBoxHow.className, "", {
-          class: "hover-box-image",
-          style: "background-image: url(" + bgi + ");",
-        });
+      hoveredBox.addEventListener("mouseout", () => {
+        boxAnim(hoveredBox, "leave");
+      });
+    });
 
-        let divContent = createElement(
-          "div",
-          "." + divHoverBoxHow.className,
-          "",
-          {
-            class: "content-individual-movie",
-          }
-        );
-
-        divHoverBoxHow.addEventListener("mouseleave", () => {
-          document.body.style.setProperty(
-            "--hover-box-width-while-move",
-            divHoverBoxHow.clientWidth + "px"
-          );
-          
-          document.body.style.setProperty(
-            "--hover-box-height-while-move",
-            divHoverBoxHow.clientHeight + "px"
-          );
-
-          divHoverBoxHow.classList.add("leave");
-
-          divContent.classList.add("hide");
-
-          id = setTimeout(() => {
-            divHoverBoxHow.remove();
-            clearTimeout(id);
-            HoverStatus = false;
-            divContent.setAttribute("hoverStatus", HoverStatus);
-          }, 900);
-        });
-      }
+    ul.addEventListener("mouseleave", () => {
+      boxAnim(hoveredBox, "leave");
     });
   }
 }
+
+function boxAnim(box, action) {
+  let ulWidth = allUlTags[0].clientWidth;
+  let idAnim = undefined;
+
+  if (action === "show") {
+    let boxShowWidth = ulWidth;
+    animationShow();
+    function animationShow() {
+      if (boxShowWidth <= ulWidth * 2) {
+        boxShowWidth += 10;
+        box.style.width = boxShowWidth + "px";
+        box.style.height = boxShowWidth + "px";
+        idAnim = requestAnimationFrame(animationShow);
+      } else {
+        cancelAnimationFrame(idAnim);
+      }
+    }
+  } else if (action === "leave") {
+    let boxShowWidth = box.style.width.replace("px", "");
+    animationLeave();
+    function animationLeave() {
+      if (boxShowWidth >= ulWidth) {
+        boxShowWidth -= 10;
+        box.style.width = boxShowWidth + "px";
+        box.style.height = boxShowWidth + "px";
+        idAnim = requestAnimationFrame(animationLeave);
+      } else {
+        cancelAnimationFrame(idAnim);
+        box.remove();
+      }
+    }
+  }
+}
+
+// ul.addEventListener("mouseenter", () => {
+//   parentSliderHoverEvent = ul.parentElement.parentElement;
+//   bgi = ul.firstChild.firstChild.getAttribute("src");
+//   if (document.querySelectorAll(".hover-box-showed").length === 1) {
+//     divHoverBoxShowSecond = createElement(
+//       "div",
+//       "." + parentSliderHoverEvent.classList[1] + " ." + ul.classList[1],
+//       "",
+//       {
+//         class: "hover-box-showed",
+//       }
+//     );
+
+//     createElement(
+//       "div",
+//       "." + ul.classList[1] + " ." + divHoverBoxShowSecond.className,
+//       "",
+//       {
+//         class: "hover-box-image",
+//         style: "background-image: url(" + bgi + ");",
+//       }
+//     );
+
+//     let divContent = createElement(
+//       "div",
+//       "." + ul.classList[1] + " ." + divHoverBoxShowSecond.className,
+//       "",
+//       {
+//         class: "content-individual-movie",
+//       }
+//     );
+
+//     divHoverBoxShowSecond.addEventListener("mouseout", () => {
+//       document.body.style.setProperty(
+//         "--hover-box-width-while-move",
+//         divHoverBoxShowSecond.clientWidth + "px"
+//       );
+
+//       document.body.style.setProperty(
+//         "--hover-box-height-while-move",
+//         divHoverBoxShowSecond.clientHeight + "px"
+//       );
+
+//       divHoverBoxShowSecond.classList.add("leave");
+
+//       divContent.classList.add("hide");
+
+//       id = setTimeout(() => {
+//         divHoverBoxShowSecond.remove();
+//         clearTimeout(id);
+//       }, 900);
+//     });
+//   } else if (document.querySelectorAll(".hover-box-showed").length === 0) {
+//     divHoverBoxShow = createElement(
+//       "div",
+//       "." + parentSliderHoverEvent.classList[1] + " ." + ul.classList[1],
+//       "",
+//       {
+//         class: "hover-box-showed",
+//       }
+//     );
+
+//     createElement("div", "." + ul.classList[1] + " ." + divHoverBoxShow.className, "", {
+//       class: "hover-box-image",
+//       style: "background-image: url(" + bgi + ");",
+//     });
+
+//     let divContent = createElement(
+//       "div",
+//       "." + ul.classList[1] + " ." + divHoverBoxShow.className,
+//       "",
+//       {
+//         class: "content-individual-movie",
+//       }
+//     );
+
+//     divHoverBoxShow.addEventListener("mouseout", () => {
+//       document.body.style.setProperty(
+//         "--hover-box-width-while-move",
+//         divHoverBoxShow.clientWidth + "px"
+//       );
+
+//       document.body.style.setProperty(
+//         "--hover-box-height-while-move",
+//         divHoverBoxShow.clientHeight + "px"
+//       );
+
+//       divHoverBoxShow.classList.add("leave");
+
+//       divContent.classList.add("hide");
+
+//       id = setTimeout(() => {
+//         divHoverBoxShow.remove();
+//         clearTimeout(id);
+//       }, 900);
+//     });
+//   }
+// });
