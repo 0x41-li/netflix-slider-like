@@ -309,12 +309,12 @@ function setupSizes() {
   }
 }
 
-let idCheck = undefined;
 
 function hoverBox() {
   let imageBox = undefined;
   let hoveredBox = undefined;
   let id = undefined;
+  let classForHoverBox = "hover-box";
 
   for (let x = 0; x < allUlTags.length; x++) {
     const ul = allUlTags[x];
@@ -322,13 +322,17 @@ function hoverBox() {
     ul.addEventListener("mouseenter", () => {
       let parentCurrentUl = ul.parentElement.parentElement;
       imageBox = ul.firstChild.firstChild.getAttribute("src");
+      
+      if(loopTracker === 0) {
+        let firstUl = parentCurrentUl.firstChild.firstChild;  
+      }
 
       hoveredBox = createElement(
         "div",
         "." + parentCurrentUl.classList[1] + " ." + ul.classList[1],
         "",
         {
-          class: "hover-box",
+          class: classForHoverBox,
           style: "background-image: url(" + imageBox + ");",
         }
       );
@@ -337,14 +341,13 @@ function hoverBox() {
         boxAnim(hoveredBox, "show");
       }, 600);
 
-      hoveredBox.addEventListener("mouseout", () => {
-        boxAnim(hoveredBox, "leave");
-      });
     });
 
     ul.addEventListener("mouseleave", () => {
       boxAnim(hoveredBox, "leave");
+      clearTimeout(id);
     });
+    
   }
 }
 
@@ -356,10 +359,10 @@ function boxAnim(box, action) {
     let boxShowWidth = ulWidth;
     animationShow();
     function animationShow() {
-      if (boxShowWidth <= ulWidth * 2) {
+      if (boxShowWidth <= ulWidth * 1.4) {
         boxShowWidth += 10;
-        box.style.width = boxShowWidth + "px";
-        box.style.height = boxShowWidth + "px";
+        box.style.width = Math.min(boxShowWidth, ulWidth * 1.4) + "px";
+        box.style.height = Math.min(boxShowWidth, ulWidth * 1.4) + "px";
         idAnim = requestAnimationFrame(animationShow);
       } else {
         cancelAnimationFrame(idAnim);
@@ -371,8 +374,8 @@ function boxAnim(box, action) {
     function animationLeave() {
       if (boxShowWidth >= ulWidth) {
         boxShowWidth -= 10;
-        box.style.width = boxShowWidth + "px";
-        box.style.height = boxShowWidth + "px";
+        box.style.width = Math.max(boxShowWidth, ulWidth) + "px";
+        box.style.height = Math.max(boxShowWidth, ulWidth) + "px";
         idAnim = requestAnimationFrame(animationLeave);
       } else {
         cancelAnimationFrame(idAnim);
@@ -382,101 +385,3 @@ function boxAnim(box, action) {
   }
 }
 
-// ul.addEventListener("mouseenter", () => {
-//   parentSliderHoverEvent = ul.parentElement.parentElement;
-//   bgi = ul.firstChild.firstChild.getAttribute("src");
-//   if (document.querySelectorAll(".hover-box-showed").length === 1) {
-//     divHoverBoxShowSecond = createElement(
-//       "div",
-//       "." + parentSliderHoverEvent.classList[1] + " ." + ul.classList[1],
-//       "",
-//       {
-//         class: "hover-box-showed",
-//       }
-//     );
-
-//     createElement(
-//       "div",
-//       "." + ul.classList[1] + " ." + divHoverBoxShowSecond.className,
-//       "",
-//       {
-//         class: "hover-box-image",
-//         style: "background-image: url(" + bgi + ");",
-//       }
-//     );
-
-//     let divContent = createElement(
-//       "div",
-//       "." + ul.classList[1] + " ." + divHoverBoxShowSecond.className,
-//       "",
-//       {
-//         class: "content-individual-movie",
-//       }
-//     );
-
-//     divHoverBoxShowSecond.addEventListener("mouseout", () => {
-//       document.body.style.setProperty(
-//         "--hover-box-width-while-move",
-//         divHoverBoxShowSecond.clientWidth + "px"
-//       );
-
-//       document.body.style.setProperty(
-//         "--hover-box-height-while-move",
-//         divHoverBoxShowSecond.clientHeight + "px"
-//       );
-
-//       divHoverBoxShowSecond.classList.add("leave");
-
-//       divContent.classList.add("hide");
-
-//       id = setTimeout(() => {
-//         divHoverBoxShowSecond.remove();
-//         clearTimeout(id);
-//       }, 900);
-//     });
-//   } else if (document.querySelectorAll(".hover-box-showed").length === 0) {
-//     divHoverBoxShow = createElement(
-//       "div",
-//       "." + parentSliderHoverEvent.classList[1] + " ." + ul.classList[1],
-//       "",
-//       {
-//         class: "hover-box-showed",
-//       }
-//     );
-
-//     createElement("div", "." + ul.classList[1] + " ." + divHoverBoxShow.className, "", {
-//       class: "hover-box-image",
-//       style: "background-image: url(" + bgi + ");",
-//     });
-
-//     let divContent = createElement(
-//       "div",
-//       "." + ul.classList[1] + " ." + divHoverBoxShow.className,
-//       "",
-//       {
-//         class: "content-individual-movie",
-//       }
-//     );
-
-//     divHoverBoxShow.addEventListener("mouseout", () => {
-//       document.body.style.setProperty(
-//         "--hover-box-width-while-move",
-//         divHoverBoxShow.clientWidth + "px"
-//       );
-
-//       document.body.style.setProperty(
-//         "--hover-box-height-while-move",
-//         divHoverBoxShow.clientHeight + "px"
-//       );
-
-//       divHoverBoxShow.classList.add("leave");
-
-//       divContent.classList.add("hide");
-
-//       id = setTimeout(() => {
-//         divHoverBoxShow.remove();
-//         clearTimeout(id);
-//       }, 900);
-//     });
-//   }
-// });
