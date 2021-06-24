@@ -323,9 +323,31 @@ function hoverBox() {
     ul.addEventListener("mouseenter", () => {
       let parentCurrentUl = ul.parentElement.parentElement;
       imageBox = ul.firstChild.firstChild.getAttribute("src");
+      classForHoverBox = "hover-box";
       
       if(loopTracker === 0) {
         let firstUl = parentCurrentUl.firstChild.firstChild;  
+        if(ul === firstUl) {
+          classForHoverBox = "hover-box-first-ul"
+        }
+        else {
+          let ulTagsArrangementNow = parentCurrentUl.firstChild.children;
+          if(ul === ulTagsArrangementNow[5]) {
+            classForHoverBox = "hover-box-last-ul"
+          }
+        }
+      }
+      else {    
+        let firstUl = parentCurrentUl.firstChild.children[1];  
+        if(ul === firstUl) {
+          classForHoverBox = "hover-box-first-ul"
+        }
+        else {
+          let ulTagsArrangementNow = parentCurrentUl.firstChild.children;
+          if(ul === ulTagsArrangementNow[6]) {
+            classForHoverBox = "hover-box-last-ul"
+          }
+        }    
       }
 
       hoveredBox = createElement(
