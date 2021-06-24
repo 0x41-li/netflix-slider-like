@@ -301,14 +301,15 @@ function setupSizes() {
   for (let y = 0; y < arrowRight.length; y++) {
     const arrow = arrowRight[y];
     arrow.style.width = "60px";
+    arrow.style.height = "calc((100vw - " + (60 + scrollBarWidth + 60 + 20) + "px) / 6)";
   }
 
   for (let u = 0; u < arrowLeft.length; u++) {
     const arrow = arrowLeft[u];
     arrow.style.width = "60px";
+    arrow.style.height = "calc((100vw - " + (60 + scrollBarWidth + 60 + 20) + "px) / 6)";
   }
 }
-
 
 function hoverBox() {
   let imageBox = undefined;
@@ -366,10 +367,12 @@ function boxAnim(box, action) {
         idAnim = requestAnimationFrame(animationShow);
       } else {
         cancelAnimationFrame(idAnim);
+        showContentOfHoverBox(box);
       }
     }
   } else if (action === "leave") {
     let boxShowWidth = box.style.width.replace("px", "");
+    let boxContent = box.firstChild;
     animationLeave();
     function animationLeave() {
       if (boxShowWidth >= ulWidth) {
@@ -385,3 +388,35 @@ function boxAnim(box, action) {
   }
 }
 
+function showContentOfHoverBox(hoveredBox) {
+  createElement("div", "." + hoveredBox.className, "" , {
+    class: "content-hover-box"
+  });
+
+  createElement("p", "." + hoveredBox.firstChild.className, "Title of the Movie" , {
+    class: "content-hover-title"
+  });
+
+  createElement("p", "." + hoveredBox.firstChild.className, "Some info" , {
+    class: "content-hover-text"
+  });
+
+  createElement("p", "." + hoveredBox.firstChild.className, "Some other Info" , {
+    class: "content-hover-text-2"
+  });
+
+  createElement("p", "." + hoveredBox.firstChild.className, "Some other Info 2" , {
+    class: "content-hover-text-3"
+  });
+
+  createElement("div", "." + hoveredBox.firstChild.className, "", {
+    class: "wrapper-arrow-for-bigger-box"
+  });
+
+  let wrapperSvgArrow = createElement("div", "." + hoveredBox.firstChild.className, "", {
+    class: "wrapper-arrow-for-bigger-box"
+  });
+
+  createElement("svg", "." + wrapperSvgArrow.className, "", {});
+
+}

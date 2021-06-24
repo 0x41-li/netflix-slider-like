@@ -197,3 +197,40 @@ input {
 }
 
 
+
+
+
+/* content-hover-box */
+
+.content-hover-box {
+  position: absolute;
+  bottom: -1px;
+  left: -1px;
+  height: 30%;
+  width: calc(100% + 2px);
+  background-color: rgba(0, 0, 0, 0.9);
+  pointer-events: none;
+}
+
+
+.content-hover-box p {
+  position: relative;
+  left: 20px;
+  font-size: 12px;
+}
+
+.content-hover-box p:nth-child(1) {
+  margin-top: 10px;
+}
+
+
+p.content-hover-title {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+
+
+.wrapper-arrow-for-bigger-box {
+  
+}
