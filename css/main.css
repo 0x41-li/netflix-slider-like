@@ -282,7 +282,7 @@ input {
 }
 
 .big-box {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 50%;
   background-color: #2C303A;
