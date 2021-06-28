@@ -454,9 +454,9 @@ function showBigBox(clicked) {
       ul.remove();
 
 
-      let bgiForBigBox = createElement("div","." + bigBox.className, "", {
+      createElement("div","." + bigBox.className, "", {
         class: "bgi-for-big-box",
-        style: "background-image: linear-gradient(to top,#1A1D29 50%, #00000000 56%, #00000000 60%) , "+ backgroundImage + ";"
+        style: "background-image: linear-gradient(to top,#1A1D29fe 50%, #00000000 52%, #00000000 60%) , "+ backgroundImage + ";"
       });
 
 

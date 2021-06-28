@@ -290,6 +290,7 @@ input {
   width: 50%;
   height: 100vh;
   transform: translateX(-50%);
+  overflow: hidden;
 }
 
 @keyframes big-box-anim {
