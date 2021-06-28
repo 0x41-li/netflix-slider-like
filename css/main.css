@@ -14,7 +14,7 @@ body {
   overflow-x: hidden;
   padding: 20px 0px;
   user-select: none;
-  margin: 40px 0;
+  margin: 40px 0px;
 }
 
 
@@ -276,18 +276,37 @@ input {
 .big-box-wrapper {
   position: absolute;
   top: 0;
+  left: 0;
   width: 100vw;
   background-color: rgba(0, 0, 0, 0.4);
 }
 
 .big-box {
   position: absolute;
-  top: 2px;
-  left:  50%;
-  transform: translateX(-50%);
-  width: 50%;
-  height: calc(100vh - 2px);
+  top: 0;
+  left: 50%;
   background-color: #2C303A;
+  animation: big-box-anim 1s;
+  width: 50%;
+  height: 100vh;
+  transform: translateX(-50%);
+}
+
+@keyframes big-box-anim {
+  from {
+    top: var(--big-box-top);
+    left: var(--big-box-left);
+    width: var(--ul-size);
+    height: var(--ul-size);
+    transform: none;
+  }
+  to {
+    top: 0;
+    left: 50%;
+    width: 50%;
+    height: 100vh;
+    transform: translateX(-50%);
+  }
 }
 
 .close-wrapper {

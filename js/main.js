@@ -429,7 +429,6 @@ function showContentOfHoverBox(hoveredBox) {
 
 }
 
-
 function showBigBox(clicked) {
   if(clicked.tagName === "BUTTON") {
     if(clicked.className.includes("play")) {
@@ -438,7 +437,6 @@ function showBigBox(clicked) {
     else if (clicked.className.includes("info")) {
       let ul = clicked.parentElement.parentElement;
       let backgroundImage = ul.style.backgroundImage;
-      ul.remove();
       let bigBoxWrapper = createElement("div", "body", "", {
         class: "big-box-wrapper"
       });
@@ -448,6 +446,12 @@ function showBigBox(clicked) {
       let bigBox = createElement("div","." + bigBoxWrapper.className, "", {
         class: "big-box"
       });
+
+      document.body.style.setProperty("--ul-size", allUlTags[0].clientHeight + "px");
+      document.body.style.setProperty("--big-box-left", ul.getBoundingClientRect().left + 40 + "px");
+      document.body.style.setProperty("--big-box-top", ul.getBoundingClientRect().top + 40 + "px");
+
+      ul.remove();
 
 
       let bgiForBigBox = createElement("div","." + bigBox.className, "", {
@@ -463,10 +467,13 @@ function showBigBox(clicked) {
       createElement("span", "." + closeWrapper.className, "", {});
       createElement("span", "." + closeWrapper.className, "", {});
 
+
       closeWrapper.addEventListener("click", () => {
         bigBoxWrapper.remove();
       });
 
+
     }
   }
 }
+
