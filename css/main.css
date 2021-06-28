@@ -14,6 +14,7 @@ body {
   overflow-x: hidden;
   padding: 20px 0px;
   user-select: none;
+  margin: 40px 0;
 }
 
 
@@ -209,26 +210,34 @@ input {
   height: 30%;
   width: calc(100% + 2px);
   background-color: rgba(0, 0, 0, 0.9);
-  pointer-events: none;
 }
 
 
-.content-hover-box p {
-  position: relative;
-  left: 20px;
-  font-size: 12px;
-}
-
-.content-hover-box p:nth-child(1) {
-  margin-top: 10px;
-}
-
-
-p.content-hover-title {
-  font-size: 16px;
+.content-hover-box button {
+  border: none;
+  border-radius: 4px;
+  background-color: rgb(84, 84, 84);
+  color: white;
   font-weight: bold;
+  cursor: pointer;
+  padding: 10px 40px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
+.content-hover-box button:hover {
+  background-color: rgb(19, 19, 19);
+}
+
+
+.content-hover-box button:nth-child(1) {
+  left: 20px;
+}
+
+.content-hover-box button:nth-child(2) {
+  right: 20px;
+}
 
 
 
@@ -257,4 +266,68 @@ p.content-hover-title {
   background-color: #0e1014;
   box-shadow: 0px 0px 10px black;
   background-size: cover;
+}
+
+
+
+
+/* Big box */
+
+.big-box-wrapper {
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.big-box {
+  position: absolute;
+  top: 2px;
+  left:  50%;
+  transform: translateX(-50%);
+  width: 50%;
+  height: calc(100vh - 2px);
+  background-color: #2C303A;
+}
+
+.close-wrapper {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  cursor: pointer;
+  height: 30px;
+  width: 30px;
+  background-color: #1A1D29;
+}
+
+.close-wrapper span {
+  position: absolute;
+  top: 14px;
+  right: 3px;
+  display: inline-block;
+  height: 3px;
+  width: 24px;
+  background-color: #FFF;
+  border-radius: 40px;
+}
+
+.close-wrapper span:nth-child(1) {
+  transform: rotateZ(45deg);
+}
+
+.close-wrapper span:nth-child(2) {
+  transform: rotateZ(-45deg);
+}
+
+
+
+
+/* bgi got bigbox */
+
+.bgi-for-big-box {
+  height: 100%;
+  width: 100%;
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
 }

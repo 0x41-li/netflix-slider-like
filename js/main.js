@@ -411,34 +411,62 @@ function boxAnim(box, action) {
 }
 
 function showContentOfHoverBox(hoveredBox) {
-  createElement("div", "." + hoveredBox.className, "" , {
+  let contentHoverBox = createElement("div", "." + hoveredBox.className, "" , {
     class: "content-hover-box"
   });
 
-  createElement("p", "." + hoveredBox.firstChild.className, "Title of the Movie" , {
-    class: "content-hover-title"
+  createElement("button", "." + hoveredBox.firstChild.className, "Play" , {
+    class: "content-hover-play"
   });
 
-  createElement("p", "." + hoveredBox.firstChild.className, "Some info" , {
-    class: "content-hover-text"
+  createElement("button", "." + hoveredBox.firstChild.className, "info" , {
+    class: "content-hover-info"
   });
 
-  createElement("p", "." + hoveredBox.firstChild.className, "Some other Info" , {
-    class: "content-hover-text-2"
+  contentHoverBox.addEventListener("click", (e) => {
+    showBigBox(e.target);
   });
 
-  createElement("p", "." + hoveredBox.firstChild.className, "Some other Info 2" , {
-    class: "content-hover-text-3"
-  });
+}
 
-  createElement("div", "." + hoveredBox.firstChild.className, "", {
-    class: "wrapper-arrow-for-bigger-box"
-  });
 
-  let wrapperSvgArrow = createElement("div", "." + hoveredBox.firstChild.className, "", {
-    class: "wrapper-arrow-for-bigger-box"
-  });
+function showBigBox(clicked) {
+  if(clicked.tagName === "BUTTON") {
+    if(clicked.className.includes("play")) {
+      console.log("play");
+    }
+    else if (clicked.className.includes("info")) {
+      let ul = clicked.parentElement.parentElement;
+      let backgroundImage = ul.style.backgroundImage;
+      ul.remove();
+      let bigBoxWrapper = createElement("div", "body", "", {
+        class: "big-box-wrapper"
+      });
 
-  createElement("svg", "." + wrapperSvgArrow.className, "", {});
+      bigBoxWrapper.style.height = document.body.clientHeight + 120 + "px";
 
+      let bigBox = createElement("div","." + bigBoxWrapper.className, "", {
+        class: "big-box"
+      });
+
+
+      let bgiForBigBox = createElement("div","." + bigBox.className, "", {
+        class: "bgi-for-big-box",
+        style: "background-image: linear-gradient(to top,#1A1D29 50%, #00000000 56%, #00000000 60%) , "+ backgroundImage + ";"
+      });
+
+
+      let closeWrapper = createElement("div", "." + bigBox.className, "", {
+        class: "close-wrapper"
+      })
+
+      createElement("span", "." + closeWrapper.className, "", {});
+      createElement("span", "." + closeWrapper.className, "", {});
+
+      closeWrapper.addEventListener("click", () => {
+        bigBoxWrapper.remove();
+      });
+
+    }
+  }
 }
