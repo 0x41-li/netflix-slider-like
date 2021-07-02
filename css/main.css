@@ -205,26 +205,39 @@ input {
 
 .content-hover-box {
   position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   bottom: -1px;
   left: -1px;
-  height: 30%;
+  height: 20%;
   width: calc(100% + 2px);
   background-color: rgba(0, 0, 0, 0.9);
 }
 
-
-.content-hover-box button {
-  border: none;
-  border-radius: 4px;
-  background-color: rgb(84, 84, 84);
-  color: white;
-  font-weight: bold;
+.content-hover-box > div {
   cursor: pointer;
-  padding: 10px 40px;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
 }
+
+.content-hover-box svg {
+  fill: white;
+  width: 34px;
+  height: 34px;
+  padding: 0px 4px;
+  box-sizing: content-box;
+  pointer-events: none;
+}
+
+
+.content-hover-box .content-hover-play {
+  margin-left: 10px;
+}
+
+.content-hover-box .content-hover-info {
+  margin-right: 10px;
+}
+
+
 
 .content-hover-box button:hover {
   background-color: rgb(19, 19, 19);
@@ -283,60 +296,55 @@ input {
 
 .big-box {
   position: fixed;
-  top: 0;
+  bottom: 0;
   left: 50%;
   background-color: #2C303A;
-  animation: big-box-anim 1s;
-  width: 50%;
-  height: 100vh;
-  transform: translateX(-50%);
+  animation: big-box-anim 0.4s;
+  width: 600px;
+  height: 97vh;
+  transform: translate(-50%,0%) scale(1);
   overflow: hidden;
+  border-radius: 6px;
 }
 
 @keyframes big-box-anim {
   from {
-    top: var(--big-box-top);
-    left: var(--big-box-left);
-    width: var(--ul-size);
-    height: var(--ul-size);
-    transform: none;
+    transform: translate(-50%,0%) scale(0.4);
   }
   to {
-    top: 0;
-    left: 50%;
-    width: 50%;
-    height: 100vh;
-    transform: translateX(-50%);
+    transform: translate(-50%,0%) scale(1);
   }
 }
 
 .close-wrapper {
   position: absolute;
-  right: 0px;
-  top: 0px;
+  right: 12px;
+  top: 12px;
   cursor: pointer;
   height: 30px;
   width: 30px;
   background-color: #1A1D29;
+  border-radius: 50px;
+  padding: 18px;
 }
 
 .close-wrapper span {
   position: absolute;
-  top: 14px;
-  right: 3px;
+  top: 50%;
+  left: 50%;
   display: inline-block;
   height: 3px;
-  width: 24px;
+  width: 20px;
   background-color: #FFF;
   border-radius: 40px;
 }
 
 .close-wrapper span:nth-child(1) {
-  transform: rotateZ(45deg);
+  transform: translate(-50%,-50%) rotateZ(45deg);
 }
 
 .close-wrapper span:nth-child(2) {
-  transform: rotateZ(-45deg);
+  transform: translate(-50%,-50%) rotateZ(-45deg);
 }
 
 
@@ -347,7 +355,7 @@ input {
 .bgi-for-big-box {
   height: 100%;
   width: 100%;
-  background-size: 100% 100%;
-  background-position: center;
+  background-size: 100%;
+  background-position: 0px 0px;
   background-repeat: no-repeat;
 }
