@@ -4,7 +4,7 @@ let imageTracker = 1;
 
 let arrowRight = undefined;
 let arrowLeft = undefined;
-let loopTracker = 0;
+let slidesTracker = 0;
 
 let slider = undefined;
 let activeSlider = undefined;
@@ -39,6 +39,7 @@ function renderToBrowser(item) {
 
     createElement("div", ".genreSection-" + i, "", {
       class: "slider-wrapper slider-wrapper-" + i + " 0",
+      "slides-tracker": 0
     });
 
     createElement("div", ".genreSection-" + i, "", {
@@ -127,7 +128,7 @@ function renderToBrowser(item) {
   setupSizes();
   progressBarSetup(0, "setup", sliders);
   sliderFunc();
-  hoverBox();
+  hoverAUl();
 }
 
 function setupSizes() {
@@ -137,8 +138,12 @@ function setupSizes() {
 
   howManyUlShouldBeInAVsibleRow = 6;
 
-  if (windowWidth < 425) {
+  if (windowWidth < 430) {
+    howManyUlShouldBeInAVsibleRow = 2;
+  } else if (windowWidth < 560) {
     howManyUlShouldBeInAVsibleRow = 3;
+  } else if (windowWidth < 770) {
+    howManyUlShouldBeInAVsibleRow = 4;
   } else if (windowWidth < 1024) {
     howManyUlShouldBeInAVsibleRow = 5;
   }
@@ -147,12 +152,12 @@ function setupSizes() {
     const ul = allUlTags[x];
     ul.style.flex =
       "0 0 calc((100vw - " +
-      (60 + scrollBarWidth + 60 + 20) +
+      (60 + scrollBarWidth + 60 + (howManyUlShouldBeInAVsibleRow - 1) * 4) +
       "px) / " +
       howManyUlShouldBeInAVsibleRow;
     ul.style.height =
       "calc((100vw - " +
-      (60 + scrollBarWidth + 60 + 20) +
+      (60 + scrollBarWidth + 60 + (howManyUlShouldBeInAVsibleRow - 1) * 4) +
       "px) / " +
       howManyUlShouldBeInAVsibleRow;
   }
@@ -162,7 +167,7 @@ function setupSizes() {
     arrow.style.width = "60px";
     arrow.style.height =
       "calc((100vw - " +
-      (60 + scrollBarWidth + 60 + 20) +
+      (60 + scrollBarWidth + 60 + (howManyUlShouldBeInAVsibleRow - 1) * 4) +
       "px) / " +
       howManyUlShouldBeInAVsibleRow;
   }
@@ -172,7 +177,7 @@ function setupSizes() {
     arrow.style.width = "60px";
     arrow.style.height =
       "calc((100vw - " +
-      (60 + scrollBarWidth + 60 + 20) +
+      (60 + scrollBarWidth + 60 + (howManyUlShouldBeInAVsibleRow - 1) * 4) +
       "px) / " +
       howManyUlShouldBeInAVsibleRow;
   }
@@ -198,22 +203,24 @@ function sliderFunc() {
         sliderWithCurrentEvent = parentUlTags.parentNode;
         arrowLeftForActiveSlider = parentUlTags.nextElementSibling;
 
+        sliderWithCurrentEvent.setAttribute("slides-Tracker", slidesTracker + 1)
+
         if (activeSlider !== undefined) {
           if (activeSlider.className !== sliderWithCurrentEvent.className) {
             activeSlider.classList.replace(
               activeSlider.classList[2],
-              loopTracker
+              slidesTracker
             );
-            loopTracker = sliderWithCurrentEvent.classList[2];
+            slidesTracker = sliderWithCurrentEvent.classList[2];
           }
         }
 
-        loopTracker++;
+        slidesTracker++;
 
         activeSlider = sliderWithCurrentEvent;
 
         parentUlTags.style.transition = "all +" + speed + "s";
-        if (loopTracker === 1) {
+        if (slidesTracker === 1) {
           parentUlTags.style.left = -parentUlTags.clientWidth + 56 + "px";
         } else {
           parentUlTags.style.left =
@@ -222,7 +229,7 @@ function sliderFunc() {
 
         setTimeout(() => {
           parentUlTags.style.transition = "none";
-          if (loopTracker === 1) {
+          if (slidesTracker === 1) {
             for (let s = 0; s < howManyUlShouldBeInAVsibleRow - 1; s++) {
               parentUlTags.appendChild(parentUlTags.firstChild);
             }
@@ -237,7 +244,7 @@ function sliderFunc() {
 
           parentUlTags.style.left = -allUlTags[0].clientWidth - 4 + "px";
 
-          progressBarSetup(loopTracker, "slide", sliderWithCurrentEvent);
+          progressBarSetup(slidesTracker, "slide", sliderWithCurrentEvent);
         }, speed * 1000);
       }
     });
@@ -253,21 +260,24 @@ function sliderFunc() {
         sliderWithCurrentEvent = parentUlTags.parentNode;
         arrowLeftForActiveSlider = parentUlTags.nextElementSibling;
 
+        sliderWithCurrentEvent.setAttribute("slides-Tracker", slidesTracker - 1)
+
+
         if (activeSlider !== undefined) {
           if (activeSlider.className !== sliderWithCurrentEvent.className) {
             activeSlider.classList.replace(
               activeSlider.classList[2],
-              loopTracker
+              slidesTracker
             );
-            loopTracker = sliderWithCurrentEvent.classList[2];
+            slidesTracker = sliderWithCurrentEvent.classList[2];
           }
         }
 
-        loopTracker--;
+        slidesTracker--;
 
         activeSlider = sliderWithCurrentEvent;
 
-        if (loopTracker === 0) {
+        if (slidesTracker === 0) {
           parentUlTags.style.transition = "none";
           for (let s = 0; s < howManyUlShouldBeInAVsibleRow - 1; s++) {
             parentUlTags.insertBefore(
@@ -295,7 +305,7 @@ function sliderFunc() {
         }
         setTimeout(() => {
           sliderStatus = false;
-          progressBarSetup(loopTracker, "slide", sliderWithCurrentEvent);
+          progressBarSetup(slidesTracker, "slide", sliderWithCurrentEvent);
         }, speed * 1000);
       }
     });
@@ -337,7 +347,7 @@ function progressBarSetup(pos, action, sliderWithAction) {
   }
 }
 
-function hoverBox() {
+function hoverAUl() {
   let imageBox = undefined;
   let hoveredBox = undefined;
   let id = undefined;
@@ -348,16 +358,17 @@ function hoverBox() {
 
     ul.addEventListener("mouseenter", () => {
       let parentSlider = ul.parentElement.parentElement;
+      let slidesTrackerValueOnAttribute = parseInt(parentSlider.getAttribute("slides-Tracker"));
       imageBox = ul.firstChild.firstChild.getAttribute("src");
       classForHoverBox = "hover-box";
 
-      if (loopTracker === 0) {
+      if (slidesTrackerValueOnAttribute === 0) {
         let firstUl = parentSlider.firstChild.firstChild;
         if (ul === firstUl) {
           classForHoverBox = "hover-box-first-ul";
         } else {
           let ulTagsArrangementNow = parentSlider.firstChild.children;
-          if (ul === ulTagsArrangementNow[5]) {
+          if (ul === ulTagsArrangementNow[howManyUlShouldBeInAVsibleRow - 1]) {
             classForHoverBox = "hover-box-last-ul";
           }
         }
@@ -367,7 +378,7 @@ function hoverBox() {
           classForHoverBox = "hover-box-first-ul";
         } else {
           let ulTagsArrangementNow = parentSlider.firstChild.children;
-          if (ul === ulTagsArrangementNow[6]) {
+          if (ul === ulTagsArrangementNow[howManyUlShouldBeInAVsibleRow]) {
             classForHoverBox = "hover-box-last-ul";
           }
         }
@@ -384,18 +395,18 @@ function hoverBox() {
       );
 
       id = setTimeout(() => {
-        boxAnim(hoveredBox, "show");
+        hoverBoxAnim(hoveredBox, "show");
       }, 600);
     });
 
     ul.addEventListener("mouseleave", () => {
-      boxAnim(hoveredBox, "leave");
+      hoverBoxAnim(hoveredBox, "leave");
       clearTimeout(id);
     });
   }
 }
 
-function boxAnim(box, action) {
+function hoverBoxAnim(box, action) {
   let ulWidth = allUlTags[0].clientWidth;
   let idAnim = undefined;
   let oneTime = true;
