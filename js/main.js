@@ -21,6 +21,8 @@ let scrollBarWidth = undefined;
 
 let howManyUlShouldBeInAVsibleRow = 6;
 
+let windowWidth = window.innerWidth;
+
 fetch("./data/data.json")
   .then((res) => res.json())
   .then((item) => {
@@ -39,7 +41,7 @@ function renderToBrowser(item) {
 
     createElement("div", ".genreSection-" + i, "", {
       class: "slider-wrapper slider-wrapper-" + i + " 0",
-      "slides-tracker": 0
+      "slides-tracker": 0,
     });
 
     createElement("div", ".genreSection-" + i, "", {
@@ -128,58 +130,70 @@ function renderToBrowser(item) {
   setupSizes();
   progressBarSetup(0, "setup", sliders);
   sliderFunc();
-  hoverAUl();
+  hoverAul();
 }
 
 function setupSizes() {
   getScrollBarWidth();
 
-  let windowWidth = window.innerWidth;
-
   howManyUlShouldBeInAVsibleRow = 6;
 
-  if (windowWidth < 430) {
-    howManyUlShouldBeInAVsibleRow = 2;
-  } else if (windowWidth < 560) {
-    howManyUlShouldBeInAVsibleRow = 3;
-  } else if (windowWidth < 770) {
+  if (windowWidth >= 570) {
     howManyUlShouldBeInAVsibleRow = 4;
-  } else if (windowWidth < 1024) {
-    howManyUlShouldBeInAVsibleRow = 5;
+  }
+  if (windowWidth >= 1024) {
+    howManyUlShouldBeInAVsibleRow = 6;
   }
 
-  for (let x = 0; x < allUlTags.length; x++) {
-    const ul = allUlTags[x];
-    ul.style.flex =
-      "0 0 calc((100vw - " +
-      (60 + scrollBarWidth + 60 + (howManyUlShouldBeInAVsibleRow - 1) * 4) +
-      "px) / " +
-      howManyUlShouldBeInAVsibleRow;
-    ul.style.height =
-      "calc((100vw - " +
-      (60 + scrollBarWidth + 60 + (howManyUlShouldBeInAVsibleRow - 1) * 4) +
-      "px) / " +
-      howManyUlShouldBeInAVsibleRow;
-  }
+  if (windowWidth > 570) {
+    for (let x = 0; x < allUlTags.length; x++) {
+      const ul = allUlTags[x];
+      ul.style.flex =
+        "0 0 calc((100vw - " +
+        (60 + scrollBarWidth + 60 + (howManyUlShouldBeInAVsibleRow - 1) * 4) +
+        "px) / " +
+        howManyUlShouldBeInAVsibleRow;
+      ul.style.height =
+        "calc((100vw - " +
+        (60 + scrollBarWidth + 60 + (howManyUlShouldBeInAVsibleRow - 1) * 4) +
+        "px) / " +
+        howManyUlShouldBeInAVsibleRow;
+    }
 
-  for (let y = 0; y < arrowRight.length; y++) {
-    const arrow = arrowRight[y];
-    arrow.style.width = "60px";
-    arrow.style.height =
-      "calc((100vw - " +
-      (60 + scrollBarWidth + 60 + (howManyUlShouldBeInAVsibleRow - 1) * 4) +
-      "px) / " +
-      howManyUlShouldBeInAVsibleRow;
-  }
+    for (let y = 0; y < arrowRight.length; y++) {
+      const arrow = arrowRight[y];
+      arrow.style.width = "60px";
+      arrow.style.height =
+        "calc((100vw - " +
+        (60 + scrollBarWidth + 60 + (howManyUlShouldBeInAVsibleRow - 1) * 4) +
+        "px) / " +
+        howManyUlShouldBeInAVsibleRow;
+    }
 
-  for (let u = 0; u < arrowLeft.length; u++) {
-    const arrow = arrowLeft[u];
-    arrow.style.width = "60px";
-    arrow.style.height =
-      "calc((100vw - " +
-      (60 + scrollBarWidth + 60 + (howManyUlShouldBeInAVsibleRow - 1) * 4) +
-      "px) / " +
-      howManyUlShouldBeInAVsibleRow;
+    for (let u = 0; u < arrowLeft.length; u++) {
+      const arrow = arrowLeft[u];
+      arrow.style.width = "60px";
+      arrow.style.height =
+        "calc((100vw - " +
+        (60 + scrollBarWidth + 60 + (howManyUlShouldBeInAVsibleRow - 1) * 4) +
+        "px) / " +
+        howManyUlShouldBeInAVsibleRow;
+    }
+  } else {
+    howManyUlShouldBeInAVsibleRow = 3;
+    for (let x = 0; x < allUlTags.length; x++) {
+      const ul = allUlTags[x];
+      ul.style.flex =
+        "0 0 calc((100vw - " +
+        (40 + scrollBarWidth + 10 + (howManyUlShouldBeInAVsibleRow - 1) * 4) +
+        "px) / " +
+        howManyUlShouldBeInAVsibleRow;
+      ul.style.height =
+        "calc((100vw - " +
+        (40 + scrollBarWidth + 10 + (howManyUlShouldBeInAVsibleRow - 1) * 4) +
+        "px) / " +
+        howManyUlShouldBeInAVsibleRow;
+    }
   }
 }
 
@@ -191,124 +205,134 @@ function sliderFunc() {
     });
   }
 
-  for (let z = 0; z < arrowRight.length; z++) {
-    arrowRight[z].addEventListener("click", (e) => {
-      if (sliderStatus === false) {
-        sliderStatus = true;
+  if (windowWidth > 570) {
+    for (let z = 0; z < arrowRight.length; z++) {
+      arrowRight[z].addEventListener("click", (e) => {
+        if (sliderStatus === false) {
+          sliderStatus = true;
 
-        let arrowLeftForActiveSlider = undefined;
+          let arrowLeftForActiveSlider = undefined;
 
-        parentUlTags =
-          e.currentTarget.previousElementSibling.previousElementSibling;
-        sliderWithCurrentEvent = parentUlTags.parentNode;
-        arrowLeftForActiveSlider = parentUlTags.nextElementSibling;
+          parentUlTags =
+            e.currentTarget.previousElementSibling.previousElementSibling;
+          sliderWithCurrentEvent = parentUlTags.parentNode;
+          arrowLeftForActiveSlider = parentUlTags.nextElementSibling;
 
-        sliderWithCurrentEvent.setAttribute("slides-Tracker", slidesTracker + 1)
+          sliderWithCurrentEvent.setAttribute(
+            "slides-Tracker",
+            slidesTracker + 1
+          );
 
-        if (activeSlider !== undefined) {
-          if (activeSlider.className !== sliderWithCurrentEvent.className) {
-            activeSlider.classList.replace(
-              activeSlider.classList[2],
-              slidesTracker
-            );
-            slidesTracker = sliderWithCurrentEvent.classList[2];
-          }
-        }
-
-        slidesTracker++;
-
-        activeSlider = sliderWithCurrentEvent;
-
-        parentUlTags.style.transition = "all +" + speed + "s";
-        if (slidesTracker === 1) {
-          parentUlTags.style.left = -parentUlTags.clientWidth + 56 + "px";
-        } else {
-          parentUlTags.style.left =
-            -parentUlTags.clientWidth - allUlTags[0].clientWidth + 52 + "px";
-        }
-
-        setTimeout(() => {
-          parentUlTags.style.transition = "none";
-          if (slidesTracker === 1) {
-            for (let s = 0; s < howManyUlShouldBeInAVsibleRow - 1; s++) {
-              parentUlTags.appendChild(parentUlTags.firstChild);
-            }
-            arrowLeftForActiveSlider.style.display = "block";
-          } else {
-            for (let s = 0; s < howManyUlShouldBeInAVsibleRow; s++) {
-              parentUlTags.appendChild(parentUlTags.firstChild);
+          if (activeSlider !== undefined) {
+            if (activeSlider.className !== sliderWithCurrentEvent.className) {
+              activeSlider.classList.replace(
+                activeSlider.classList[2],
+                slidesTracker
+              );
+              slidesTracker = sliderWithCurrentEvent.classList[2];
             }
           }
 
-          sliderStatus = false;
+          slidesTracker++;
 
-          parentUlTags.style.left = -allUlTags[0].clientWidth - 4 + "px";
+          activeSlider = sliderWithCurrentEvent;
 
-          progressBarSetup(slidesTracker, "slide", sliderWithCurrentEvent);
-        }, speed * 1000);
-      }
-    });
-  }
-
-  for (let c = 0; c < arrowLeft.length; c++) {
-    arrowLeft[c].addEventListener("click", (e) => {
-      if (sliderStatus === false) {
-        sliderStatus = true;
-        let arrowLeftForActiveSlider = undefined;
-
-        parentUlTags = e.currentTarget.previousElementSibling;
-        sliderWithCurrentEvent = parentUlTags.parentNode;
-        arrowLeftForActiveSlider = parentUlTags.nextElementSibling;
-
-        sliderWithCurrentEvent.setAttribute("slides-Tracker", slidesTracker - 1)
-
-
-        if (activeSlider !== undefined) {
-          if (activeSlider.className !== sliderWithCurrentEvent.className) {
-            activeSlider.classList.replace(
-              activeSlider.classList[2],
-              slidesTracker
-            );
-            slidesTracker = sliderWithCurrentEvent.classList[2];
-          }
-        }
-
-        slidesTracker--;
-
-        activeSlider = sliderWithCurrentEvent;
-
-        if (slidesTracker === 0) {
-          parentUlTags.style.transition = "none";
-          for (let s = 0; s < howManyUlShouldBeInAVsibleRow - 1; s++) {
-            parentUlTags.insertBefore(
-              parentUlTags.lastChild,
-              parentUlTags.firstChild
-            );
-            parentUlTags.style.left = -parentUlTags.clientWidth + 56 + "px";
-          }
           parentUlTags.style.transition = "all +" + speed + "s";
-          parentUlTags.style.left = "0px";
-          arrowLeftForActiveSlider.style.display = "none";
-        } else {
-          parentUlTags.style.transition = "none";
-          for (let s = 0; s < howManyUlShouldBeInAVsibleRow; s++) {
-            parentUlTags.insertBefore(
-              parentUlTags.lastChild,
-              parentUlTags.firstChild
-            );
+          if (slidesTracker === 1) {
+            parentUlTags.style.left = -parentUlTags.clientWidth + 56 + "px";
+          } else {
             parentUlTags.style.left =
               -parentUlTags.clientWidth - allUlTags[0].clientWidth + 52 + "px";
           }
-          parentUlTags.style.transition = "all +" + speed + "s";
-          parentUlTags.style.left = -allUlTags[0].clientWidth - 4 + "px";
-          arrowLeftForActiveSlider.style.display = "block";
+
+          setTimeout(() => {
+            parentUlTags.style.transition = "none";
+            if (slidesTracker === 1) {
+              for (let s = 0; s < howManyUlShouldBeInAVsibleRow - 1; s++) {
+                parentUlTags.appendChild(parentUlTags.firstChild);
+              }
+              arrowLeftForActiveSlider.style.display = "block";
+            } else {
+              for (let s = 0; s < howManyUlShouldBeInAVsibleRow; s++) {
+                parentUlTags.appendChild(parentUlTags.firstChild);
+              }
+            }
+
+            sliderStatus = false;
+
+            parentUlTags.style.left = -allUlTags[0].clientWidth - 4 + "px";
+
+            progressBarSetup(slidesTracker, "slide", sliderWithCurrentEvent);
+          }, speed * 1000);
         }
-        setTimeout(() => {
-          sliderStatus = false;
-          progressBarSetup(slidesTracker, "slide", sliderWithCurrentEvent);
-        }, speed * 1000);
-      }
-    });
+      });
+    }
+
+    for (let c = 0; c < arrowLeft.length; c++) {
+      arrowLeft[c].addEventListener("click", (e) => {
+        if (sliderStatus === false) {
+          sliderStatus = true;
+          let arrowLeftForActiveSlider = undefined;
+
+          parentUlTags = e.currentTarget.previousElementSibling;
+          sliderWithCurrentEvent = parentUlTags.parentNode;
+          arrowLeftForActiveSlider = parentUlTags.nextElementSibling;
+
+          sliderWithCurrentEvent.setAttribute(
+            "slides-Tracker",
+            slidesTracker - 1
+          );
+
+          if (activeSlider !== undefined) {
+            if (activeSlider.className !== sliderWithCurrentEvent.className) {
+              activeSlider.classList.replace(
+                activeSlider.classList[2],
+                slidesTracker
+              );
+              slidesTracker = sliderWithCurrentEvent.classList[2];
+            }
+          }
+
+          slidesTracker--;
+
+          activeSlider = sliderWithCurrentEvent;
+
+          if (slidesTracker === 0) {
+            parentUlTags.style.transition = "none";
+            for (let s = 0; s < howManyUlShouldBeInAVsibleRow - 1; s++) {
+              parentUlTags.insertBefore(
+                parentUlTags.lastChild,
+                parentUlTags.firstChild
+              );
+              parentUlTags.style.left = -parentUlTags.clientWidth + 56 + "px";
+            }
+            parentUlTags.style.transition = "all +" + speed + "s";
+            parentUlTags.style.left = "0px";
+            arrowLeftForActiveSlider.style.display = "none";
+          } else {
+            parentUlTags.style.transition = "none";
+            for (let s = 0; s < howManyUlShouldBeInAVsibleRow; s++) {
+              parentUlTags.insertBefore(
+                parentUlTags.lastChild,
+                parentUlTags.firstChild
+              );
+              parentUlTags.style.left =
+                -parentUlTags.clientWidth -
+                allUlTags[0].clientWidth +
+                52 +
+                "px";
+            }
+            parentUlTags.style.transition = "all +" + speed + "s";
+            parentUlTags.style.left = -allUlTags[0].clientWidth - 4 + "px";
+            arrowLeftForActiveSlider.style.display = "block";
+          }
+          setTimeout(() => {
+            sliderStatus = false;
+            progressBarSetup(slidesTracker, "slide", sliderWithCurrentEvent);
+          }, speed * 1000);
+        }
+      });
+    }
   }
 
   document.querySelector("#seconds").addEventListener("input", () => {
@@ -347,61 +371,73 @@ function progressBarSetup(pos, action, sliderWithAction) {
   }
 }
 
-function hoverAUl() {
-  let imageBox = undefined;
-  let hoveredBox = undefined;
-  let id = undefined;
-  let classForHoverBox = "hover-box";
+function hoverAul() {
+  if (windowWidth > 570) {
+    let imageBox = undefined;
+    let hoveredBox = undefined;
+    let id = undefined;
+    let classForHoverBox = "hover-box";
 
-  for (let x = 0; x < allUlTags.length; x++) {
-    const ul = allUlTags[x];
+    for (let x = 0; x < allUlTags.length; x++) {
+      const ul = allUlTags[x];
 
-    ul.addEventListener("mouseenter", () => {
-      let parentSlider = ul.parentElement.parentElement;
-      let slidesTrackerValueOnAttribute = parseInt(parentSlider.getAttribute("slides-Tracker"));
-      imageBox = ul.firstChild.firstChild.getAttribute("src");
-      classForHoverBox = "hover-box";
+      ul.addEventListener("mouseenter", () => {
+        let parentSlider = ul.parentElement.parentElement;
+        let slidesTrackerValueOnAttribute = parseInt(
+          parentSlider.getAttribute("slides-Tracker")
+        );
+        imageBox = ul.firstChild.firstChild.getAttribute("src");
+        classForHoverBox = "hover-box";
 
-      if (slidesTrackerValueOnAttribute === 0) {
-        let firstUl = parentSlider.firstChild.firstChild;
-        if (ul === firstUl) {
-          classForHoverBox = "hover-box-first-ul";
+        if (slidesTrackerValueOnAttribute === 0) {
+          let firstUl = parentSlider.firstChild.firstChild;
+          if (ul === firstUl) {
+            classForHoverBox = "hover-box-first-ul";
+          } else {
+            let ulTagsArrangementNow = parentSlider.firstChild.children;
+            if (
+              ul === ulTagsArrangementNow[howManyUlShouldBeInAVsibleRow - 1]
+            ) {
+              classForHoverBox = "hover-box-last-ul";
+            }
+          }
         } else {
-          let ulTagsArrangementNow = parentSlider.firstChild.children;
-          if (ul === ulTagsArrangementNow[howManyUlShouldBeInAVsibleRow - 1]) {
-            classForHoverBox = "hover-box-last-ul";
+          let firstUl = parentSlider.firstChild.children[1];
+          if (ul === firstUl) {
+            classForHoverBox = "hover-box-first-ul";
+          } else {
+            let ulTagsArrangementNow = parentSlider.firstChild.children;
+            if (ul === ulTagsArrangementNow[howManyUlShouldBeInAVsibleRow]) {
+              classForHoverBox = "hover-box-last-ul";
+            }
           }
         }
-      } else {
-        let firstUl = parentSlider.firstChild.children[1];
-        if (ul === firstUl) {
-          classForHoverBox = "hover-box-first-ul";
-        } else {
-          let ulTagsArrangementNow = parentSlider.firstChild.children;
-          if (ul === ulTagsArrangementNow[howManyUlShouldBeInAVsibleRow]) {
-            classForHoverBox = "hover-box-last-ul";
+
+        hoveredBox = createElement(
+          "div",
+          "." + parentSlider.classList[1] + " ." + ul.classList[1],
+          "",
+          {
+            class: classForHoverBox,
+            style: "background-image: url(" + imageBox + ");",
           }
-        }
-      }
+        );
 
-      hoveredBox = createElement(
-        "div",
-        "." + parentSlider.classList[1] + " ." + ul.classList[1],
-        "",
-        {
-          class: classForHoverBox,
-          style: "background-image: url(" + imageBox + ");",
-        }
-      );
+        id = setTimeout(() => {
+          hoverBoxAnim(hoveredBox, "show");
+        }, 600);
+      });
 
-      id = setTimeout(() => {
-        hoverBoxAnim(hoveredBox, "show");
-      }, 600);
-    });
-
-    ul.addEventListener("mouseleave", () => {
-      hoverBoxAnim(hoveredBox, "leave");
-      clearTimeout(id);
+      ul.addEventListener("mouseleave", () => {
+        hoverBoxAnim(hoveredBox, "leave");
+        clearTimeout(id);
+      });
+    }
+  } else {
+    allUlTags.forEach((ul) => {
+      ul.addEventListener("click", function (e) {
+        showBigBox(ul);
+      });
     });
   }
 }
@@ -528,56 +564,71 @@ function showContentOfHoverBox(hoveredBox) {
 }
 
 function showBigBox(clicked) {
-  if (clicked.tagName === "DIV") {
-    if (clicked.className.includes("play")) {
-      console.log("play");
-    } else if (clicked.className.includes("info")) {
-      let ul = clicked.parentElement.parentElement;
-      let backgroundImage = ul.style.backgroundImage;
-      let bigBoxWrapper = createElement("div", "body", "", {
-        class: "big-box-wrapper",
-      });
-
-      bigBoxWrapper.style.height = document.body.clientHeight + 120 + "px";
-
-      let bigBox = createElement("div", "." + bigBoxWrapper.className, "", {
-        class: "big-box",
-      });
-
-      document.body.style.setProperty(
-        "--ul-size",
-        allUlTags[0].clientHeight + "px"
-      );
-      document.body.style.setProperty(
-        "--big-box-left",
-        ul.getBoundingClientRect().left + 40 + "px"
-      );
-      document.body.style.setProperty(
-        "--big-box-top",
-        ul.getBoundingClientRect().top + 40 + "px"
-      );
-
-      ul.remove();
-
-      createElement("div", "." + bigBox.className, "", {
-        class: "bgi-for-big-box",
-        style:
-          "background-image: linear-gradient(to top,#1A1D29fe 50%, #00000000 52%, #00000000 60%) , " +
-          backgroundImage +
-          ";",
-      });
-
-      let closeWrapper = createElement("div", "." + bigBox.className, "", {
-        class: "close-wrapper",
-      });
-
-      createElement("span", "." + closeWrapper.className, "", {});
-      createElement("span", "." + closeWrapper.className, "", {});
-
-      closeWrapper.addEventListener("click", () => {
-        bigBoxWrapper.remove();
-      });
+  function bigBox() {
+    let ul = null;
+    let backgroundImage = null;
+    if (windowWidth < 570) {
+      ul = clicked;
+      let imageSrc = ul.firstChild.firstChild.getAttribute("src");
+      backgroundImage = "url("+ imageSrc +")";
+    } else {
+      ul = clicked.parentElement.parentElement;
+      backgroundImage = ul.style.backgroundImage;
     }
+    let bigBoxWrapper = createElement("div", "body", "", {
+      class: "big-box-wrapper",
+    });
+
+    bigBoxWrapper.style.height = document.body.clientHeight + 120 + "px";
+
+    let bigBox = createElement("div", "." + bigBoxWrapper.className, "", {
+      class: "big-box",
+    });
+
+    document.body.style.setProperty(
+      "--ul-size",
+      allUlTags[0].clientHeight + "px"
+    );
+    document.body.style.setProperty(
+      "--big-box-left",
+      ul.getBoundingClientRect().left + 40 + "px"
+    );
+    document.body.style.setProperty(
+      "--big-box-top",
+      ul.getBoundingClientRect().top + 40 + "px"
+    );
+
+    ul.remove();
+
+    createElement("div", "." + bigBox.className, "", {
+      class: "bgi-for-big-box",
+      style:
+        "background-image: linear-gradient(to top,#1A1D29fe 50%, #00000000 52%, #00000000 60%) , " +
+        backgroundImage +
+        ";",
+    });
+
+    let closeWrapper = createElement("div", "." + bigBox.className, "", {
+      class: "close-wrapper",
+    });
+
+    createElement("span", "." + closeWrapper.className, "", {});
+    createElement("span", "." + closeWrapper.className, "", {});
+
+    closeWrapper.addEventListener("click", () => {
+      bigBoxWrapper.remove();
+    });
+  }
+  if (windowWidth > 570) {
+    if (clicked.tagName === "DIV") {
+      if (clicked.className.includes("play")) {
+        console.log("play");
+      } else if (clicked.className.includes("info")) {
+        bigBox();
+      }
+    }
+  } else {
+    bigBox();
   }
 }
 
