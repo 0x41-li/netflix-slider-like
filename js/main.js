@@ -570,7 +570,7 @@ function showBigBox(clicked) {
     if (windowWidth < 570) {
       ul = clicked;
       let imageSrc = ul.firstChild.firstChild.getAttribute("src");
-      backgroundImage = "url("+ imageSrc +")";
+      backgroundImage = "url(" + imageSrc + ")";
     } else {
       ul = clicked.parentElement.parentElement;
       backgroundImage = ul.style.backgroundImage;
@@ -598,7 +598,10 @@ function showBigBox(clicked) {
       ul.getBoundingClientRect().top + 40 + "px"
     );
 
-    ul.remove();
+    if (windowWidth > 570) {
+      ul.remove();
+    }
+
 
     createElement("div", "." + bigBox.className, "", {
       class: "bgi-for-big-box",
