@@ -129,23 +129,53 @@ function renderToBrowser(item) {
 
   setupSizes();
   progressBarSetup(0, "setup", sliders);
-  sliderFunc();
-  hoverAul();
 }
 
 function setupSizes() {
+  windowWidth = window.innerWidth;
+
+  allUlTags.forEach((ul) => {
+    ulCloned = ul.cloneNode(true);
+    ul.parentNode.replaceChild(ulCloned, ul);
+  });
+
+  allUlTags = document.querySelectorAll(".ul-tags");
+
+  sliderFunc();
+  hoverAul();
   getScrollBarWidth();
 
   howManyUlShouldBeInAVsibleRow = 6;
 
   if (windowWidth >= 570) {
-    howManyUlShouldBeInAVsibleRow = 4;
+    howManyUlShouldBeInAVsibleRow = 3;
   }
   if (windowWidth >= 1024) {
     howManyUlShouldBeInAVsibleRow = 6;
   }
 
-  if (windowWidth > 570) {
+  if (is_touch_enabled()) {
+    howManyUlShouldBeInAVsibleRow = 2;
+    if (windowWidth >= 570) {
+      howManyUlShouldBeInAVsibleRow = 3;
+    }
+    if (windowWidth >= 1024) {
+      howManyUlShouldBeInAVsibleRow = 6;
+    }
+    for (let x = 0; x < allUlTags.length; x++) {
+      const ul = allUlTags[x];
+      ul.style.flex =
+        "0 0 calc((100vw - " +
+        (40 + scrollBarWidth + 10 + (howManyUlShouldBeInAVsibleRow - 1) * 4) +
+        "px) / " +
+        howManyUlShouldBeInAVsibleRow;
+      ul.style.height =
+        "calc((100vw - " +
+        (40 + scrollBarWidth + 10 + (howManyUlShouldBeInAVsibleRow - 1) * 4) +
+        "px) / " +
+        howManyUlShouldBeInAVsibleRow;
+    }
+  } else {
     for (let x = 0; x < allUlTags.length; x++) {
       const ul = allUlTags[x];
       ul.style.flex =
@@ -179,21 +209,6 @@ function setupSizes() {
         "px) / " +
         howManyUlShouldBeInAVsibleRow;
     }
-  } else {
-    howManyUlShouldBeInAVsibleRow = 3;
-    for (let x = 0; x < allUlTags.length; x++) {
-      const ul = allUlTags[x];
-      ul.style.flex =
-        "0 0 calc((100vw - " +
-        (40 + scrollBarWidth + 10 + (howManyUlShouldBeInAVsibleRow - 1) * 4) +
-        "px) / " +
-        howManyUlShouldBeInAVsibleRow;
-      ul.style.height =
-        "calc((100vw - " +
-        (40 + scrollBarWidth + 10 + (howManyUlShouldBeInAVsibleRow - 1) * 4) +
-        "px) / " +
-        howManyUlShouldBeInAVsibleRow;
-    }
   }
 }
 
@@ -205,7 +220,7 @@ function sliderFunc() {
     });
   }
 
-  if (windowWidth > 570) {
+  if (!is_touch_enabled()) {
     for (let z = 0; z < arrowRight.length; z++) {
       arrowRight[z].addEventListener("click", (e) => {
         if (sliderStatus === false) {
@@ -372,7 +387,13 @@ function progressBarSetup(pos, action, sliderWithAction) {
 }
 
 function hoverAul() {
-  if (windowWidth > 570) {
+  if (is_touch_enabled()) {
+    allUlTags.forEach((ul) => {
+      ul.addEventListener("click", function (e) {
+        showBigBox(ul);
+      });
+    });
+  } else {
     let imageBox = undefined;
     let hoveredBox = undefined;
     let id = undefined;
@@ -433,12 +454,6 @@ function hoverAul() {
         clearTimeout(id);
       });
     }
-  } else {
-    allUlTags.forEach((ul) => {
-      ul.addEventListener("click", function (e) {
-        showBigBox(ul);
-      });
-    });
   }
 }
 
@@ -565,9 +580,14 @@ function showContentOfHoverBox(hoveredBox) {
 
 function showBigBox(clicked) {
   function bigBox() {
+    function bigBoxClose() {
+      bigBoxWrapper.remove();
+      document.documentElement.style.overflowY = "scroll";
+      bigBoxWrapper.style.overflowY = "hidden";
+    }
     let ul = null;
     let backgroundImage = null;
-    if (windowWidth < 570) {
+    if (is_touch_enabled()) {
       ul = clicked;
       let imageSrc = ul.firstChild.firstChild.getAttribute("src");
       backgroundImage = "url(" + imageSrc + ")";
@@ -578,8 +598,6 @@ function showBigBox(clicked) {
     let bigBoxWrapper = createElement("div", "body", "", {
       class: "big-box-wrapper",
     });
-
-    bigBoxWrapper.style.height = document.body.clientHeight + 120 + "px";
 
     let bigBox = createElement("div", "." + bigBoxWrapper.className, "", {
       class: "big-box",
@@ -598,12 +616,11 @@ function showBigBox(clicked) {
       ul.getBoundingClientRect().top + 40 + "px"
     );
 
-    if (windowWidth > 570) {
+    if (!is_touch_enabled()) {
       ul.remove();
     }
 
-
-    createElement("div", "." + bigBox.className, "", {
+    let backgroundDiv = createElement("div", "." + bigBox.className, "", {
       class: "bgi-for-big-box",
       style:
         "background-image: linear-gradient(to top,#1A1D29fe 50%, #00000000 52%, #00000000 60%) , " +
@@ -615,14 +632,34 @@ function showBigBox(clicked) {
       class: "close-wrapper",
     });
 
+    let contentTest = createElement("div", "." + bigBox.className, "", {
+      class: "ct",
+    });
+
+    for (let f = 0; f < 100; f++) {
+      contentTest.innerHTML += "<p>Test</p>";
+    }
+
+    bigBox.style.height =
+      contentTest.offsetHeight + contentTest.offsetTop + "px";
+
     createElement("span", "." + closeWrapper.className, "", {});
     createElement("span", "." + closeWrapper.className, "", {});
 
-    closeWrapper.addEventListener("click", () => {
-      bigBoxWrapper.remove();
+    closeWrapper.addEventListener("click", bigBoxClose);
+
+    bigBoxWrapper.addEventListener("click", bigBoxClose);
+
+    bigBox.addEventListener("click", (e) => {
+      e.stopPropagation();
     });
+
+    document.documentElement.style.overflowY = "hidden";
+    bigBoxWrapper.style.overflowY = "scroll";
   }
-  if (windowWidth > 570) {
+  if (is_touch_enabled()) {
+    bigBox();
+  } else {
     if (clicked.tagName === "DIV") {
       if (clicked.className.includes("play")) {
         console.log("play");
@@ -630,9 +667,15 @@ function showBigBox(clicked) {
         bigBox();
       }
     }
-  } else {
-    bigBox();
   }
+}
+
+function is_touch_enabled() {
+  return (
+    "ontouchstart" in window ||
+    navigator.maxTouchPoints > 0 ||
+    navigator.msMaxTouchPoints > 0
+  );
 }
 
 window.addEventListener("resize", setupSizes);
