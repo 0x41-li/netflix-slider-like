@@ -23,7 +23,9 @@ let howManyUlShouldBeInAVsibleRow = 6;
 
 let windowWidth = window.innerWidth;
 
-fetch("./data/data.json")
+let url = window.location.href.slice(0, window.location.href.lastIndexOf("/"));
+
+fetch(url + "/data/data.json")
   .then((res) => res.json())
   .then((item) => {
     renderToBrowser(item);
@@ -349,10 +351,6 @@ function sliderFunc() {
       });
     }
   }
-
-  document.querySelector("#seconds").addEventListener("input", () => {
-    speed = document.querySelector("#seconds").value;
-  });
 }
 
 function getScrollBarWidth() {
@@ -636,8 +634,9 @@ function showBigBox(clicked) {
       class: "ct",
     });
 
-    for (let f = 0; f < 100; f++) {
-      contentTest.innerHTML += "<p>Test</p>";
+    for (let f = 0; f < 10; f++) {
+      contentTest.innerHTML +=
+        "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, similique, eligendi fugit porro, repellendus possimus sed odit tempora architecto officiis nihil ipsa illum numquam blanditiis hic aspernatur. Porro, harum architecto?</p>";
     }
 
     bigBox.style.height =
